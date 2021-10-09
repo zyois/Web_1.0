@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_09_132956) do
+ActiveRecord::Schema.define(version: 2021_10_09_141042) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "lists", force: :cascade do |t|
+    t.string "work_name"
     t.string "episode"
     t.string "album"
     t.string "track"
@@ -25,6 +26,13 @@ ActiveRecord::Schema.define(version: 2021_10_09_132956) do
     t.string "scene"
     t.string "theme"
     t.string "other"
+    t.integer "work_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "works", force: :cascade do |t|
+    t.string "work_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
