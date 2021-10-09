@@ -1,0 +1,2085 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<html lang="ja"></html>
+<title>The Mandalorian S1 | Soundtrack List</title>
+<%= stylesheet_link_tag 'application' %>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+	<div class="all">
+		<!--ヘッダー-->
+		<header class="container">
+			  <ul>
+				  <li><a href="../soundtrackMenu.html">Main</a></li>
+				  <li><a href="../soundtrackListMain.html">Soundtrack List</a></li>
+			  </ul>
+		</header>
+			
+		<!--メイン-->
+		<div class="mainContents">
+			<!--タイトルサイドボックス-->
+			<div class="SideBox">
+				<ul>
+					<label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
+					<input type="checkbox" id="listAlbum"/>
+					<div class="hiddenShowPhone">
+						<div class="SideTab">
+							<label for="listSW"><li>Star Wars</li></label>
+							<input type="checkbox" id="listSW"/>			
+							<div class="hiddenShow">
+								<label for="listSWMando"><li class="side2">The Mandalorian</li></label>
+								<input type="checkbox" id="listSWMando"/>
+									<div class="hiddenShow">
+										<li class="side3"><a href="MandalorianS1.html">Season1</a></li>
+										<li class="side3"><a href="MandalorianS2.html">Season2</a></li>
+									</div>
+							</div>
+						</div>
+					</div>
+				</ul>
+			</div>
+
+			<!--曲リスト-->
+			<div class="MainBox">
+				<p class="newListTitle">Chapter1: The Mandalorian</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						<tr>
+						  <th class="album">CD</th>
+						  <th class="number">曲</th>
+						  <th class="title">タイトル</th>
+						  <th class="range">使用箇所</th>
+						  <th class="time">タイミング</th>
+						  <th class="explanation">場面</th>
+						  <th class="theme">テーマ</th>
+						  <th class="supple">補足</th>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">1</td>
+						  <td class="title">Hey Mando!</td>
+						  <td class="range"></td>
+						  <td class="time">0:01:09</td>
+						  <td class="explanation">マルド・クレイスの酒場で格闘するディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<% @lists.each do |list| %>
+							<tr class="listData">
+								<td class="album"><%= list.album %></td>
+								<td class="number"><%= list.track %></td>
+								<td class="title"><%= list.name %></td>
+								<td class="range"><%= list.time %></td>
+								<td class="time"><%= list.timing %></td>
+								<td class="explanation"><%= list.scene %></td>
+								<td class="theme"><%= list.theme %></td>
+								<td class="supple"><%= list.other %></td>
+							</tr>
+						<% end %>
+						
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:04:11</td>
+						  <td class="explanation">クバーズがランドスピーダーを呼ぶ合図2</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:05:50</td>
+						  <td class="explanation">＜レイザークレスト＞に襲いかかるラヴィナック</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:08:38</td>
+						  <td class="explanation">炭素冷凍されるミスロル</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:10:39</td>
+						  <td class="explanation">ネヴァロの酒場で流れているBGM</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">2</td>
+						  <td class="title">Face to Face</td>
+						  <td class="range"></td>
+						  <td class="time">0:12:37</td>
+						  <td class="explanation">”クライアント”と対面するディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>デン・ジャリン</li>
+							  	<li>クライアント</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">3</td>
+						  <td class="title">Back for Beskar</td>
+						  <td class="range"></td>
+						  <td class="time">0:17:42</td>
+						  <td class="explanation">マンダロリアンの地下の隠れ家へ向かうディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>マンダロリアン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">4</td>
+						  <td class="title">HammerTime</td>
+						  <td class="range"></td>
+						  <td class="time">0:20:04</td>
+						  <td class="explanation">ベスカー製ポールドロンを製造する”アーマラー”</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  	<li>マンダロアの教義</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">5</td>
+						  <td class="title">Blurg Attack</td>
+						  <td class="range"></td>
+						  <td class="time">0:22:54</td>
+						  <td class="explanation">プラーグに襲われるディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>クイール</li>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">6</td>
+						  <td class="title">You Are a Mandalorian</td>
+						  <td class="range"></td>
+						  <td class="time">0:24:54</td>
+						  <td class="explanation">プラーグに乗る練習をするディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+								<li>クイール</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">7</td>
+						  <td class="title">Bounty Droid</td>
+						  <td class="range"></td>
+						  <td class="time">0:30:46</td>
+						  <td class="explanation">IG-11と共闘するディン</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">8</td>
+						  <td class="title">The Asset</td>
+						  <td class="range"></td>
+						  <td class="time">0:34:45</td>
+						  <td class="explanation">”チャイルド”を発見するディンら</td>
+						  <td class="theme">
+							  <ul>
+								<li>チャイルド</li>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">9</td>
+						  <td class="title">The Mandalorian</td>
+						  <td class="range">0:46~</td>
+						  <td class="time">0:36:09</td>
+						  <td class="explanation">エンド・クレジット</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+
+
+					  </tbody>
+					</table>
+				</div>
+
+				<p class="newListTitle">Chapter2: The Child</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						<tr>
+						  <th class="album">CD</th>
+						  <th class="number">曲</th>
+						  <th class="title">タイトル</th>
+						  <th class="range">使用箇所</th>
+						  <th class="time">タイミング</th>
+						  <th class="explanation">場面</th>
+						  <th class="theme">テーマ</th>
+						  <th class="supple">補足</th>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:00:00</td>
+						  <td class="explanation">あらすじ</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">
+							<ul>
+								<li>以下に近い曲を含む</li>
+								<li>1-2「Face to Face」(3:22~3:29)</li>
+								<li>2-3「Trashed Crest」(1:34~1:43)</li>
+						  	</ul>
+						  </td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:01:03</td>
+						  <td class="explanation">ロゴ</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">1</td>
+						  <td class="title">Walking on Mud</td>
+						  <td class="range"></td>
+						  <td class="time">0:01:20</td>
+						  <td class="explanation">”チャイルド”を狙うトランドーシャン</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:04:10</td>
+						  <td class="explanation">ディンの傷を癒そうとする”チャイルド”</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">2</td>
+						  <td class="title">Jawas Attack</td>
+						  <td class="range"></td>
+						  <td class="time">0:05:06</td>
+						  <td class="explanation">サンドクローラーを追い掛けるディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>マンドーとチャイルド</li>
+								  <li>ジャワ</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">3</td>
+						  <td class="title">Trashed Crest</td>
+						  <td class="range"></td>
+						  <td class="time">0:09:06</td>
+						  <td class="explanation">
+							  <ul>
+								  <li>＜レイザークレスト＞の損傷具合を調べるディン</li>
+								  <li>クイールに再会するディン</li>
+							  </ul>
+							  </td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">4</td>
+						  <td class="title">To the Jawas</td>
+						  <td class="range"></td>
+						  <td class="time">0:12:02</td>
+						  <td class="explanation">ジャワの元へ向かうディンとクイール</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ディン・ジャリン</li>
+								  <li>ジャワ</li>
+								  <li>クイール</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">5</td>
+						  <td class="title">The Egg</td>
+						  <td class="range"></td>
+						  <td class="time">0:14:54</td>
+						  <td class="explanation">マッドホーンの巣へ向かうディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ディン・ジャリン</li>
+								  <li>ジャワ</li>
+								  <li>マンダロリアン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">6</td>
+						  <td class="title">The Mudhorn</td>
+						  <td class="range"></td>
+						  <td class="time">0:17:48</td>
+						  <td class="explanation">マッドホーンと格闘するディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>チャイルド</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:20:46</td>
+						  <td class="explanation">卵を確保するディン</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">7</td>
+						  <td class="title">Celebration</td>
+						  <td class="range"></td>
+						  <td class="time">0:22:09</td>
+						  <td class="explanation">卵を持ち帰るディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ジャワ</li>
+								  <li>クイール</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">2</td>
+						  <td class="number">8</td>
+						  <td class="title">The Next Journey</td>
+						  <td class="range"></td>
+						  <td class="time">0:25:50</td>
+						  <td class="explanation">クイールと別れるディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>クイール</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">9</td>
+						  <td class="title">The Mandalorian</td>
+						  <td class="range"></td>
+						  <td class="time">0:28:19</td>
+						  <td class="explanation">エンド・クレジット</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+					 </tbody>
+				   </table>
+				</div>
+
+				<p class="newListTitle">Chapter3: The Sin</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						<tr>
+						  <th class="album">CD</th>
+						  <th class="number">曲</th>
+						  <th class="title">タイトル</th>
+						  <th class="range">使用箇所</th>
+						  <th class="time">タイミング</th>
+						  <th class="explanation">場面</th>
+						  <th class="theme">テーマ</th>
+						  <th class="supple">補足</th>
+						</tr>		  
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:00:00</td>
+						  <td class="explanation">あらすじ</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ディン・ジャリン</li>
+								  <li>ジャワ"</li>
+							  </ul>
+						  </td>
+						  <td class="supple">
+							<ul>
+								<li>以下に近い曲を含む</li>
+								<li>1-3「Back for Beskar」(0:01~0:07)</li>
+								<li>2-6「The Mudhorn」(1:28~1:38，2:44~)</li>
+								<li>2-8「The Next Journey」(0:43~1:00)</li>
+								<li>2-2「Jawas Attack」(0:49~0:58)</li>
+								<li>2-6「The Mudhorn」(1:08~1:18)</li>
+							</ul>
+						  </td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:01:18</td>
+						  <td class="explanation">ロゴ</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">1</td>
+						  <td class="title">A New Day</td>
+						  <td class="range"></td>
+						  <td class="time">0:02:14</td>
+						  <td class="explanation">報酬を受け取るディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>チャイルド</li>
+								  <li>ディン・ジャリン</li>
+								  <li>クライアント</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">2</td>
+						  <td class="title">Mandalore Way</td>
+						  <td class="range"></td>
+						  <td class="time">0:07:50</td>
+						  <td class="explanation">マンダロリアンの地下の隠れ家へ戻るディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>マンダロリアン</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">3</td>
+						  <td class="title">Signet Forging</td>
+						  <td class="range"></td>
+						  <td class="time">0:11:58</td>
+						  <td class="explanation">ベスカー製のアーマーを製造する”アーマラー”</td>
+						  <td class="theme">
+							  <ul>
+								  <li>マンダロアの教義</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:14:08</td>
+						  <td class="explanation">新アーマーで酒場に現れるディン</td>
+						  <td class="theme"></td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:17:27</td>
+						  <td class="explanation">”チャイルド”を奪還しに戻るディン</td>
+						  <td class="theme">
+							  <ul>
+								<li>チャイルド</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">4</td>
+						  <td class="title">Second Thoughts</td>
+						  <td class="range"></td>
+						  <td class="time">0:19:58</td>
+						  <td class="explanation">”チャイルド”を奪還するディン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ディン・ジャリン</li>
+								  <li>マンダロリアン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">5</td>
+						  <td class="title">Whistling Bird</td>
+						  <td class="range"></td>
+						  <td class="time">0:24:17</td>
+						  <td class="explanation">ディンにチャイルドを渡すよう告げるグリーフ</td>
+						  <td class="theme">
+							  <ul>
+								<li>マンダロリアン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">未</td>
+						  <td class="number"></td>
+						  <td class="title">　</td>
+						  <td class="range"></td>
+						  <td class="time">0:26:51</td>
+						  <td class="explanation">ディンを襲うグリーフ</td>
+						  <td class="theme">
+							  <ul>
+								  <li>ディン・ジャリン</li>
+								  <li>チャイルド</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">6</td>
+						  <td class="title">Mando Rescue</td>
+						  <td class="range">0:25~</td>
+						  <td class="time">0:29:23</td>
+						  <td class="explanation">ディンを救うために駆けつけるマンダロリアン</td>
+						  <td class="theme">
+							  <ul>
+								  <li>マンダロリアン</li>
+								  <li>マンダロアの教義</li>
+								  <li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">3</td>
+						  <td class="number">7</td>
+						  <td class="title">I Need One of Those</td>
+						  <td class="range"></td>
+						  <td class="time">0:31:07</td>
+						  <td class="explanation">
+							  <ul>ディンの前に立ちふさがるグリーフ</ul>
+							  <ul>ネヴァロを出発するディン</ul>
+						  </td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple">曲間無し
+
+</td>
+						</tr>
+						<tr class="listData">
+						  <td class="album">1</td>
+						  <td class="number">9</td>
+						  <td class="title">The Mandalorian</td>
+						  <td class="range">0:46~</td>
+						  <td class="time">0:32:33</td>
+						  <td class="explanation">エンド・クレジット</td>
+						  <td class="theme">
+							  <ul>
+								<li>ディン・ジャリン</li>
+							  </ul>
+						  </td>
+						  <td class="supple"></td>
+						</tr>
+					 </tbody>
+				   </table>
+				</div>
+				
+				<p class="newListTitle">Chapter4: Sanctuary</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						  <tr>
+							  <th class="album">CD</th>
+							  <th class="number">曲</th>
+							  <th class="title">タイトル</th>
+							  <th class="range">使用箇所</th>
+							  <th class="time">タイミング</th>
+							  <th class="explanation">場面</th>
+							  <th class="theme">テーマ</th>
+							  <th class="supple">補足</th>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:00</td>
+							  <td class="explanation">あらすじ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>以下にに近い曲を含む</li>
+									  <li>1-2「Face to Face」(3:22~4:03, ~0:05, 0:21~0:26)</li>
+								  </ul>
+							  </td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:01:09</td>
+							  <td class="explanation">ロゴ</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">1</td>
+							  <td class="title">The Ponds of Sorgan</td>
+							  <td class="range">~0:50</td>
+							  <td class="time">0:01:28</td>
+							  <td class="explanation">平和に暮らすソウガンの農民</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ソーガン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">1</td>
+							  <td class="title">The Ponds of Sorgan</td>
+							  <td class="range">1:04~</td>
+							  <td class="time">0:02:32</td>
+							  <td class="explanation">ソーガンの村を襲撃する略奪団</td>
+							  <td class="theme">
+								  <ul>
+									  <li>略奪団</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">2</td>
+							  <td class="title">Off the Grid</td>
+							  <td class="range"></td>
+							  <td class="time">0:05:01</td>
+							  <td class="explanation">ソーガンに到着するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>ソーガン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:59</td>
+							  <td class="explanation">ソーガンの寄合所で流れているBGM</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:08:25</td>
+							  <td class="explanation">キャラを追跡するディン</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:13:32</td>
+							  <td class="explanation">村へ到着するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ソーガン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">3</td>
+							  <td class="title">Can I Feed Him?</td>
+							  <td class="range"></td>
+							  <td class="time">0:15:15</td>
+							  <td class="explanation">オメラと出会うディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ソーガン</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">4</td>
+							  <td class="title">Training the Plebs</td>
+							  <td class="range"></td>
+							  <td class="time">0:19:30</td>
+							  <td class="explanation">農民を鍛えるディンとキャラ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>略奪団</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">5</td>
+							  <td class="title">Camp Attack</td>
+							  <td class="range"></td>
+							  <td class="time">0:22:24</td>
+							  <td class="explanation">略奪団の拠点を襲撃するディンとキャラ</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">6</td>
+							  <td class="title">Spirit of the Woods</td>
+							  <td class="range"></td>
+							  <td class="time">0:24:50</td>
+							  <td class="explanation">略奪団と争う農民</td>
+							  <td class="theme">
+								  <ul>
+									  <li>略奪団</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:29:52</td>
+							  <td class="explanation">”チャイルド”を観察する子供ら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ソーガン</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:31:36</td>
+							  <td class="explanation">キャラと会話するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">7</td>
+							  <td class="title">Stay</td>
+							  <td class="range"></td>
+							  <td class="time">0:32:49</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>オメラと話すディン</li>
+									  <li>チャイルド”を狙う賞金稼ぎを殺すキャラ</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>略奪団</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">4</td>
+							  <td class="number">8</td>
+							  <td class="title">Mando Says Goodbye</td>
+							  <td class="range"></td>
+							  <td class="time">0:35:17</td>
+							  <td class="explanation">農民らと別れるディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ソーガン</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">1</td>
+							  <td class="number">9</td>
+							  <td class="title">The Mandalorian</td>
+							  <td class="range">0:46~</td>
+							  <td class="time">0:36:30</td>
+							  <td class="explanation">エンド・クレジット</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+					 </tbody>
+				   </table>
+				</div>
+				
+				<p class="newListTitle">Chapter5: The Gunslinger</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						  <tr>
+							  <th class="album">CD</th>
+							  <th class="number">曲</th>
+							  <th class="title">タイトル</th>
+							  <th class="range">使用箇所</th>
+							  <th class="time">タイミング</th>
+							  <th class="explanation">場面</th>
+							  <th class="theme">テーマ</th>
+							  <th class="supple">補足</th>
+						  </tr>	  
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:00</td>
+							  <td class="explanation">あらすじ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>チャイルド</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>以下に近い曲を含む</li>
+									  <li>2-3「Trashed Crest」(1:34~1:44，0:21~0:31)</li>
+								  </ul>
+							  </td>
+						  </tr>				  
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:58</td>
+							  <td class="explanation">ロゴ</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">1</td>
+							  <td class="title">Warm or Cold</td>
+							  <td class="range">1:14~</td>
+							  <td class="time">0:02:23</td>
+							  <td class="explanation">ライオットを撃墜するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:05:38</td>
+							  <td class="explanation">モス・アイズリー市街を歩くディン</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">2</td>
+							  <td class="title">Bright Eyes</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:23</td>
+							  <td class="explanation">”チャイルド”を見つけるペリ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>陽気なチャイルド</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">3</td>
+							  <td class="title">Stuck with Me Now</td>
+							  <td class="range"></td>
+							  <td class="time">0:08:32</td>
+							  <td class="explanation">トロに声を掛けられるディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>フェネック・シャンド</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">4</td>
+							  <td class="title">Speederbikes</td>
+							  <td class="range"></td>
+							  <td class="time">0:11:55</td>
+							  <td class="explanation">スピーダーで走るディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>疾走</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">5</td>
+							  <td class="title">Raiders</td>
+							  <td class="range">~0:53</td>
+							  <td class="time">0:13:11</td>
+							  <td class="explanation">タスケン・レイダーと遭遇するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:14:38</td>
+							  <td class="explanation">スピーダーで走るディンら2</td>
+							  <td class="theme">
+								  <ul>
+									  <li>疾走</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:15:54</td>
+							  <td class="explanation">賞金稼ぎの死体を発見するディン</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">5</td>
+							  <td class="title">Raiders</td>
+							  <td class="range">0:53~</td>
+							  <td class="time">0:16:02</td>
+							  <td class="explanation">ディンを狙撃するフェネック</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:17:05</td>
+							  <td class="explanation">日が暮れるのを待つトロら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>フェネック・シャンド</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">6</td>
+							  <td class="title">Night Riders</td>
+							  <td class="range"></td>
+							  <td class="time">0:18:03</td>
+							  <td class="explanation">フェネックを捕らえに向かうディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>疾走</li>
+									  <li>フェネック・シャンド</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">7</td>
+							  <td class="title">The Hangar</td>
+							  <td class="range"></td>
+							  <td class="time">0:22:21</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>フェネックを撃つトロ</li>
+									  <li>トロを撃ち殺すディン</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>フェネック・シャンド</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">5</td>
+							  <td class="number">8</td>
+							  <td class="title">Farewell</td>
+							  <td class="range"></td>
+							  <td class="time">0:28:19</td>
+							  <td class="explanation">タトゥイーンを出発するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>チャイルド</li>
+									  <li>ディン・ジャリン</li>
+									  <li>陽気なチャイルド</li>
+									  <li>フェネック・シャンド</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">1</td>
+							  <td class="number">9</td>
+							  <td class="title">The Mandalorian</td>
+							  <td class="range">0:46~</td>
+							  <td class="time">0:30:23</td>
+							  <td class="explanation">エンド・クレジット</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+					 </tbody>
+				   </table>
+				</div>
+				
+				<p class="newListTitle">Chapter6: The Prisoner</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						  <tr>
+							  <th class="album">CD</th>
+							  <th class="number">曲</th>
+							  <th class="title">タイトル</th>
+							  <th class="range">使用箇所</th>
+							  <th class="time">タイミング</th>
+							  <th class="explanation">場面</th>
+							  <th class="theme">テーマ</th>
+							  <th class="supple">補足</th>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:00</td>
+							  <td class="explanation">あらすじ</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:42</td>
+							  <td class="explanation">ロゴ</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">1</td>
+							  <td class="title">Welcome Back</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:55</td>
+							  <td class="explanation">ランザーと再会するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">2</td>
+							  <td class="title">The Gang</td>
+							  <td class="range"></td>
+							  <td class="time">0:04:43</td>
+							  <td class="explanation">シアンと再会するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>メイフェルドのチーム</li>
+									  <li>シアン</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:33</td>
+							  <td class="explanation">作戦を説明するメイフェルドら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>潜入作戦</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">3</td>
+							  <td class="title">Greatest Warriors in the Galaxy</td>
+							  <td class="range"></td>
+							  <td class="time">0:08:54</td>
+							  <td class="explanation">＜レイザークレスト＞内の武器庫を発見するバーグ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">4</td>
+							  <td class="title">Let's Just Do It</td>
+							  <td class="range"></td>
+							  <td class="time">0:10:47</td>
+							  <td class="explanation">ヘルメットを取るよう誂われるディン</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:12:09</td>
+							  <td class="explanation">”チャイルド”を抱くメイフェルド</td>
+							  <td class="theme">
+								  <ul>
+									  <li>メイフェルドのチーム</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">5</td>
+							  <td class="title">Hyperspace</td>
+							  <td class="range"></td>
+							  <td class="time">0:12:48</td>
+							  <td class="explanation">監獄船へ潜入するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>潜入作戦</li>
+									  <li>メイフェルドのチーム</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">6</td>
+							  <td class="title">Little Mousey</td>
+							  <td class="range"></td>
+							  <td class="time">0:15:31</td>
+							  <td class="explanation">セキュリティ・ドロイドと闘うディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>裏切り</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">7</td>
+							  <td class="title">Tracking Beacon</td>
+							  <td class="range"></td>
+							  <td class="time">0:18:23</td>
+							  <td class="explanation">ダヴィンを殺すシアン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>シアン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:21:16</td>
+							  <td class="explanation">セキュリティ・ドロイドを破壊するバーグ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>潜入作戦</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">8</td>
+							  <td class="title">My Saviour</td>
+							  <td class="range"></td>
+							  <td class="time">0:22:05</td>
+							  <td class="explanation">監房に閉じ込められるディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>裏切り</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:23:01</td>
+							  <td class="explanation">監房内を彷徨くセキュリティ・ドロイド</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">9</td>
+							  <td class="title">Mando on the Move</td>
+							  <td class="range"></td>
+							  <td class="time">0:23:17</td>
+							  <td class="explanation">監房から脱走するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">10</td>
+							  <td class="title">Nice Family</td>
+							  <td class="range"></td>
+							  <td class="time">0:24:24</td>
+							  <td class="explanation">分断されるメイフェルドら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>潜入作戦</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">6</td>
+							  <td class="number">11</td>
+							  <td class="title">Mando's Back</td>
+							  <td class="range"></td>
+							  <td class="time">0:26:43</td>
+							  <td class="explanation">メイフェルドらを襲うディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>シアン</li>
+									  <li>裏切り</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:33:55</td>
+							  <td class="explanation">ステーションへ帰還するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>裏切り</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:37:41</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>”チャイルド”にレバーの部品をあげるディン</li>
+									  <li>監房内のシアンら</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>メイフェルドのチーム</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">1</td>
+							  <td class="number">9</td>
+							  <td class="title">The Mandalorian</td>
+							  <td class="range">0:46~</td>
+							  <td class="time">0:38:30</td>
+							  <td class="explanation">エンド・クレジット</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+					 </tbody>
+				   </table>
+				</div>
+				
+				<p class="newListTitle">Chapter7: The Reckoning</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						  <tr>
+							  <th class="album">CD</th>
+							  <th class="number">曲</th>
+							  <th class="title">タイトル</th>
+							  <th class="range">使用箇所</th>
+							  <th class="time">タイミング</th>
+							  <th class="explanation">場面</th>
+							  <th class="theme">テーマ</th>
+							  <th class="supple">補足</th>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:00</td>
+							  <td class="explanation">あらすじ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>以下に近い曲を含む</li>
+									  <li>2-3「Trashed Crest」(~0:24)</li>
+									  <li>1-8「The Asset」(1:21~)</li>
+								  </ul>
+							  </td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:01:17</td>
+							  <td class="explanation">ロゴ</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">1</td>
+							  <td class="title">Man of Honour</td>
+							  <td class="range"></td>
+							  <td class="time">0:01:49</td>
+							  <td class="explanation">グリーフからの通信を見るディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>チャイルド</li>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:05:30</td>
+							  <td class="explanation">ソウガンの寄合所で流れるBGM</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:36</td>
+							  <td class="explanation">＜レイザークレスト＞内で会話するディンとキャラ</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:07:57</td>
+							  <td class="explanation">クイールと再会するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>クイール</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>曲間無し</li>
+									  <li>以下に近い曲を含む</li>
+									  <li>2-3「Trashed Crest」(0:20~0:33，1:24~)</li>
+								  </ul>
+							  </td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:09:23</td>
+							  <td class="explanation">飲み物を運んで来るIG-11</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">2</td>
+							  <td class="title">Reprogram</td>
+							  <td class="range"></td>
+							  <td class="time">0:09:34</td>
+							  <td class="explanation">IG-11の再プログラミングについて語るクイール</td>
+							  <td class="theme">
+								  <ul>
+									  <li>IG-11</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">3</td>
+							  <td class="title">Kuiil</td>
+							  <td class="range"></td>
+							  <td class="time">0:12:22</td>
+							  <td class="explanation">クイールを説得するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:13:59</td>
+							  <td class="explanation">キャラをフォースで絞めつける”チャイルド”</td>
+							  <td class="theme">
+								  <ul>
+									  <li>クライアント</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:16:17</td>
+							  <td class="explanation">ネヴァロへ降り立つ＜レイザークレスト＞</td>
+							  <td class="theme">
+								  <ul>
+									  <li>マンダロリアン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">4</td>
+							  <td class="title">The Standoff</td>
+							  <td class="range"></td>
+							  <td class="time">0:17:15</td>
+							  <td class="explanation">グリーフと再会するディン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>クライアント</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">5</td>
+							  <td class="title">Black Skies</td>
+							  <td class="range"></td>
+							  <td class="time">0:21:14</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>飛行生物に襲われるディンら〜負傷したグリーフを救う”チャイルド</li>
+									  <li>仲間の賞金稼ぎを殺すグリーフ</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>チャイルド</li>
+									  <li>マンダロリアン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">6</td>
+							  <td class="title">This Is It</td>
+							  <td class="range"></td>
+							  <td class="time">0:25:46</td>
+							  <td class="explanation">”クライアント”殺害作戦を開始するディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:28:16</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>”クライアント”の元へ向かうディンら</li>
+									  <li>”チャイルド”を抱えて船へ戻るグリーフ</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>グリーフ</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:29:06</td>
+							  <td class="explanation">”クライアント”にディンと”チャイルド”を引き渡すグリーフ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>クライアント</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>以下に近い曲を含む</li>
+									  <li>1-2「Face to Face」(1:40~4:18)</li>
+								  </ul>
+							  </td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:31:12</td>
+							  <td class="explanation">ホログラム越しで会話する”クライアント”とギデオン</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">7</td>
+							  <td class="title">The Arrival</td>
+							  <td class="range"></td>
+							  <td class="time">0:32:10</td>
+							  <td class="explanation">ディンらの前に現れるギデオン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">7</td>
+							  <td class="number">8</td>
+							  <td class="title">The Mandalorian</td>
+							  <td class="range"></td>
+							  <td class="time">0:35:50</td>
+							  <td class="explanation">エンド・クレジット</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">2:11付近のフレーズが本編では2回繰り返し</td>
+						  </tr>
+					 </tbody>
+				   </table>
+				</div>
+				
+				<p class="newListTitle">Chapter8: Redemption</p>
+				<div class="AllList">
+					<table>
+					  <tbody>
+						  <tr>
+							  <th class="album">CD</th>
+							  <th class="number">曲</th>
+							  <th class="title">タイトル</th>
+							  <th class="range">使用箇所</th>
+							  <th class="time">タイミング</th>
+							  <th class="explanation">場面</th>
+							  <th class="theme">テーマ</th>
+							  <th class="supple">補足</th>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:00:08</td>
+							  <td class="explanation">あらすじ</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>クライアント</li>
+								  </ul>
+							  </td>
+							  <td class="supple">
+								  <ul>
+									  <li>以下に近い曲を含む</li>
+									  <li>1-1「Hey Mando! 」(0:11~0:22)</li>
+									  <li>1-2「Face to Face」(1:26~1:35)</li>
+									  <li>1-1「Hey Mando! 」(1:00~1:09)</li>
+									  <li>3-1「A New Day」(0:54~1:06)</li>
+									  <li>3-6「Mando Rescue」(1:58~)</li>
+								  </ul>
+							  </td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:01:37</td>
+							  <td class="explanation">ロゴ</td>
+							  <td class="theme"></td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">1</td>
+							  <td class="title">Check Point</td>
+							  <td class="range">~0:38</td>
+							  <td class="time">0:01:53</td>
+							  <td class="explanation">”チャイルド”を連れ去るスカウト・トルーパー</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">2</td>
+							  <td class="title">Nurse Droid</td>
+							  <td class="range">~0:26</td>
+							  <td class="time">0:05:04</td>
+							  <td class="explanation">スカウト・トルーパーの前に現れるIG-11</td>
+							  <td class="theme">
+								  <ul>
+									  <li>IG-11</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:05:32</td>
+							  <td class="explanation">スカウト・トルーパーを撃対するIG-11</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">2</td>
+							  <td class="title">Nurse Droid</td>
+							  <td class="range">0:47~</td>
+							  <td class="time">0:05:52</td>
+							  <td class="explanation">”チャイルド”と共にスピーダーを走らせるIG-11</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:06</td>
+							  <td class="explanation">地下道からの脱出を提案するディン</td>
+							  <td class="theme"></td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">3</td>
+							  <td class="title">The Ewebb</td>
+							  <td class="range"></td>
+							  <td class="time">0:06:39</td>
+							  <td class="explanation">降伏を勧めるギデオン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">4</td>
+							  <td class="title">A Thousand Tears</td>
+							  <td class="range"></td>
+							  <td class="time">0:10:23</td>
+							  <td class="explanation">ディン・ジャリンの回想</td>
+							  <td class="theme">
+								  <ul>
+									  <li>マンダロアの教義</li>
+									  <li>ディン・ジャリン</li>
+									  <li>マンダロリアン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">5</td>
+							  <td class="title">Nurse and Protect</td>
+							  <td class="range"></td>
+							  <td class="time">0:14:52</td>
+							  <td class="explanation">帝国レムナントと闘うディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>IG-11</li>
+									  <li>ディン・ジャリン</li>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">6</td>
+							  <td class="title">A Warrior's Death</td>
+							  <td class="range"></td>
+							  <td class="time">0:18:44</td>
+							  <td class="explanation">インシネレーター・トルーパーの攻撃を防ぐ”チャイルド”</td>
+							  <td class="theme">
+								  <ul>
+									  <li>チャイルド</li>
+									  <li>マンダロリアン</li>
+									  <li>ギデオン</li>
+									  <li>マンドーとチャイルド</li>
+								  </ul>
+							  </td>
+							  <td class="supple">曲間無し</td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:22:32</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>ディンにバクタスプレーを吹きかけるIG-11</li>
+									  <li>キャラらと地下道で合流するディンら</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">7</td>
+							  <td class="title">What Remains in the Tunnels</td>
+							  <td class="range"></td>
+							  <td class="time">0:23:50</td>
+							  <td class="explanation">マンダロリアンの隠れ家へ向かうディンら</td>
+							  <td class="theme">
+								  <ul>
+									  <li>マンダロリアン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">8</td>
+							  <td class="title">Clan of Two</td>
+							  <td class="range"></td>
+							  <td class="time">0:27:09</td>
+							  <td class="explanation">ディンにクラン・オブ・ツーの印とジェットパックを授ける”アーマラー”</td>
+							  <td class="theme">
+								  <ul>
+									  <li>マンダロリアン</li>
+									  <li>IG-11</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:30:39</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>”アーマラー”と別れるディンら</li>
+									  <li>ストームトルーパーを撃対する”アーマラー”</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">9</td>
+							  <td class="title">Sacrifice</td>
+							  <td class="range"></td>
+							  <td class="time">0:33:56</td>
+							  <td class="explanation">自爆するIG-11</td>
+							  <td class="theme">
+								  <ul>
+									  <li>IG-11</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">10</td>
+							  <td class="title">Mando Flies</td>
+							  <td class="range"></td>
+							  <td class="time">0:37:27</td>
+							  <td class="explanation">TIEファイターでディンらを襲撃するギデオン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">8</td>
+							  <td class="number">11</td>
+							  <td class="title">The Baby</td>
+							  <td class="range"></td>
+							  <td class="time">0:39:39</td>
+							  <td class="explanation">
+								  <ul>
+									  <li>グリーフとキャラと別れるディン・ジャリン</li>
+									  <li>ネヴァロを出発するディンら</li>
+								  </ul>
+							  </td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+									  <li>マンドーとチャイルド</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">未</td>
+							  <td class="number"></td>
+							  <td class="title">　</td>
+							  <td class="range"></td>
+							  <td class="time">0:43:10</td>
+							  <td class="explanation">ダークセーバーでTIEファイターから脱出するギデオン</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ギデオン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+						  <tr class="listData">
+							  <td class="album">1</td>
+							  <td class="number">9</td>
+							  <td class="title">The Mandalorian</td>
+							  <td class="range">0:46~</td>
+							  <td class="time">0:43:52</td>
+							  <td class="explanation">エンド・クレジット</td>
+							  <td class="theme">
+								  <ul>
+									  <li>ディン・ジャリン</li>
+								  </ul>
+							  </td>
+							  <td class="supple"></td>
+						  </tr>
+					 </tbody>
+				   </table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

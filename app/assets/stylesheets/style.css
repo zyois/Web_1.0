@@ -1,0 +1,632 @@
+@charset "UTF-8";
+/*余白消去*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*全体*/
+body {
+	width: auto;
+	min-width: 320px;
+    background-color: whitesmoke;
+	-webkit-text-size-adjust: 100%;
+}
+.all {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	width: 100%;
+	height: 100%;
+	float: none;
+	margin: 0 auto;
+	display: grid;
+}
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul li a:hover {
+    color: #EBDE3A;
+}
+
+/*ヘッダー*/
+.container {
+	padding: 0px;
+	float: none;
+	height: 100px;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #000000;
+	display: fixed;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1000;
+}
+.container ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 50px;
+	width: 100%;
+}
+.container ul li {
+    display: inline;
+    color: #FFFFFF;
+    margin-left: 0px;
+    width: 50px;
+    height: 200px;
+    font-size: x-large;
+    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*メインページ画像*/
+.MainPicture figure img {
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+}
+
+/*新着記事欄*/
+.newList {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.newListTitle {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 40px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+.newWork {
+	display: flex;
+	text-align: left;
+	border-top: thin;
+	border-top-style: solid;
+	border-top-color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.newDate {
+	width: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-style: italic;
+	text-decoration: underline;
+}
+.newTitle {
+	width: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.listLast {
+	border-bottom: thin;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+.newTitle a {
+	text-decoration: none;
+	color: black;
+}
+.newTitle a:hover {
+	color: orange;
+}
+
+/*リストページ*/
+.mainContents {
+	width: 1440px;
+	height: 100%;
+	margin: 0px auto 0px;
+	dispaly: block;
+	position: relative;
+}
+
+/*曲リストメニュー*/
+.MainBoxMenu {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.MainBoxMenu li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	list-style-type: none;
+	text-align: center;
+}
+.MainBoxMenu label:hover {
+	color: orange;
+	text-decoration: underline;
+}
+/*チェック非表示*/
+.MainBoxMenu input {
+	display: none;
+}
+
+/*タブの中身を非表示*/
+.MainBoxMenu .hiddenShow {
+	height: 0;
+	overflow: hidden;
+}
+/*クリック時に中身表示*/
+.MainBoxMenu input:checked ~ .hiddenShow {
+	height: auto;
+/*	background-color: darkgrey;*/
+	text-align: center;
+	margin: 10px 0;
+}
+.hiddenShow .side2Main {
+	font-size: 20px;
+	font-weight: bold;
+	color: firebrick;
+}
+.hiddenShow .side3Main {
+	font-size: 20px;
+	color: darkkhaki;
+}
+.side3Main a {
+	text-decoration: none;
+	color: darkkhaki;
+}
+.side3Main a:hover {
+	color: orange;
+}
+
+/*曲リストボックス*/
+.SideBox {
+    width: 180px;
+    height: 100%;
+    float: left;
+    background-color: lightgray;
+	margin-left: 0px;
+}
+.SideBox li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	text-align: center;
+	background-color: darkgrey;
+	margin: 0px;
+	border-bottom: thin;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+/*ボタンホバー時*/
+.SideBox label:hover {
+    color: #F0953D;
+}
+/*チェック非表示*/
+.SideBox input {
+	display: none;
+}
+/*タブの中身を非表示*/
+.SideBox .hiddenShow {
+	height: 0;
+	overflow: hidden;
+}
+/*クリック時に中身表示*/
+.SideBox input:checked ~ .hiddenShow {
+	height: auto;
+	background-color: darkgrey;
+}
+.hiddenShow .side2 {
+	background-color: wheat;
+}
+.hiddenShow .side3 {
+	background-color: lightyellow;
+}
+#titleListPhone {
+	display: none;
+}
+.side3 a {
+	text-decoration: none;
+	color: black;
+}
+.side3 a:hover {
+	color: #F0953D;
+}
+
+/*曲リスト*/
+.MainBox {
+	width: 1000px;
+	heifght: auto;
+	float: left;
+	-webkit-text-size-adjust: 100%;
+}
+.AllList {
+	float: right;
+	width: 95%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position:relative;
+}
+/*1行空きごとの背景色*/
+.AllList #main1 {
+    background-color: #EFECD8	
+}
+
+/*テーブル*/
+table {
+	border: solid 1px;
+	border-collapse:  collapse;
+	width: 100%;
+}
+/*1グループ*/
+tr {
+	border-up: solid 1px;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+/*奇数番号部分*/
+tr:nth-child(odd) {
+	background-color: #EFECD8;
+}
+/*見出し*/
+th {
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-color: darkgray;
+	text-align: center;
+	font-size: 10px;
+	background-color:gainsboro;
+}
+/*各行*/
+td {
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+	border-color: darkgray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+}
+.listData .album {
+	width: 25px;
+	text-align: center;
+}
+.listData .number {
+	width: 20px;
+	text-align: center;
+}
+.listData .title {
+	width: 150px;
+	text-align: left;
+	padding-left: 5px;
+}
+.listData .range {
+	width: 75px;
+	text-align: left;
+	padding-left: 5px;
+}
+.listData .time {
+	width: 80px;
+	text-align: right;
+	padding-right: 5px;
+}
+.listData .explanation {
+	width: 300px;
+	text-align: left;
+	padding-left: 5px;
+}
+.listData .theme {
+	width: 150px;
+	text-align: left;
+	padding-left: 5px;
+}
+.listData .supple {
+	width: 150px;
+	text-align: left;
+	padding-left: 5px;
+}
+.explanation ul {
+	list-style-type: none;
+}
+.theme ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+.supple ul {
+	list-style-type: none;
+}
+
+
+/*スマホ対応(1024px以下)*/
+@media screen and (max-width: 1024px) {
+	/*リストページ*/
+	.mainContents {
+		width: 100%;
+	}
+	.newListTitle {
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	
+	/*曲リストボックス*/
+	.SideBox {
+		width: 100%;
+		height: auto;
+		float: none;
+		position: sticky;
+		position: -webkit-sticky;
+		top: 50px;
+		z-index: 1000;
+	}
+	/*タブの中身を非表示*/
+	.SideBox .hiddenShowPhone {
+		height: 0;
+		overflow: hidden;
+	}
+	/*クリック時に中身表示*/
+	.SideBox input:checked ~ .hiddenShowPhone {
+		height: auto;
+		background-color: darkgrey;
+	}
+	#titleListPhone {
+		display: block;
+	}
+}
+
+
+/*スマホ対応(768px以下)*/
+@media screen and (max-width: 768px){
+	/*全体*/
+	.all {
+		display: block;
+	}
+	
+	/*ヘッダー*/
+	.container {
+		height: 50px;
+	}
+	.container ul {
+		padding-top: 10px;
+	}
+	.container ul li {
+		font-size: large;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	/*メインページ画像*/
+	.MainPicture figure img {
+		width: 100%;
+	}
+	
+	/*新着記事欄*/
+	.newList {
+		width: 90%;
+	}
+	.newListTitle {
+		font-size: 10px;
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.newWork {
+		font-size: 10px;
+	}
+	.newDate {
+		padding-left: 10px;
+		padding-bottom: 5px;
+	}
+	.newTitle {
+		padding-left: 0px;
+	}
+	
+	/*曲リストメニュー*/
+	.MainBoxMenu {
+		width: 60%;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	/*曲リスト*/
+	.MainBox {
+		width: 100%;
+		float: none;
+		margin-top: 50px;
+	}
+	.AllList {
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		position: block;
+		display: table;
+	}
+
+	/*テーブル*/
+	table {
+		width: 600px;
+	}
+	/*1グループ*/
+	tr {
+		border-up: none;
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+	}
+	/*奇数番号のみ部分*/
+	tr:nth-child(odd) {
+		background-color: none;
+	}
+	tr .album {
+		width: 10%;
+		display: inline-block;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-collapse:  collapse;
+	}
+	tr .number {
+		display: none;
+	}
+	tr .range {
+		display: none;
+	}
+	tr .time {
+		width: 19.5%;
+		display: inline-block;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-left: solid 1px;
+		border-collapse:  collapse;
+		border-color: darkgray;
+		padding-right: none;
+	}
+	tr .title {
+		width: 70%;
+		display: inline-block;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-left: solid 1px;
+		border-collapse:  collapse;
+		border-color: darkgray;
+		padding-left: none;
+	}
+	tr .explanation {
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: none;
+	}
+	tr .theme {
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: none;
+	}
+	tr .supple {
+		display: none;
+	}
+	tr .theme:empty {
+		display: none;
+	}
+	/*見出し*/
+	th {	
+		border-left: none;
+		border-right: none;
+		border-bottom: solid 1px;
+		border-color: darkgray;
+	}
+	/*各行*/
+	td {		
+		border-left: none;
+		border-right: none;
+		padding-top: none;
+		padding-bottom: none;
+		border-bottom: solid 1px;
+		border-color: darkgray;
+	}
+	.listData {
+		border-color: darkgray;
+	}
+	.listData .album {
+		width: 10%;
+		display: inline-block;
+		padding-right: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-collapse:  collapse;
+		border-color: darkgray;
+	}
+	.listData .number {
+		display: none;
+	}
+	.listData .range {
+		display: none;
+	}
+	.listData .time {
+		width: 17.5%;
+		text-align: center;
+		display: inline-block;
+		border-left: solid 1px;
+		border-collapse:  collapse;
+		border-color: darkgray;
+		padding-right: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.listData .title {
+		width: 70%;
+		text-align: center;
+		display: inline-block;
+		border-left: solid 1px;
+		border-collapse:  collapse;
+		border-color: darkgray;
+		padding-right: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.listData .explanation {
+		width: 99%;
+		text-align: center;
+		display: block;
+		padding-right: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.listData .theme {
+		width: 99%;
+		text-align: center;
+		display: block;
+		padding-right: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.listData .supple {
+		display: none;
+	}
+	.listData .theme:empty {
+		display: none;
+	}
+	.theme ul {
+		list-style-type: none;
+	}
+}
+
+
+/*スマホ対応(425px以下)*/
+@media screen and (max-width: 425px) {
+	/*曲リスト*/
+	.AllList {
+		width: 65%;
+	}
+	
+	/*テーブル*/
+	table {
+		width: 270px;
+	}
+	
+	tr .time {
+		width: 19%;
+	}	
+	.listData .time {
+		width: 15.5%;
+	}
+}
