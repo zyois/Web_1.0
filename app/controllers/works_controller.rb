@@ -1,10 +1,10 @@
 class WorksController < ApplicationController
   def index
-    @works = Work
+    @works = Work.all
   end
-  
+
   def show
-    @work = Work.find_by(work_name: 'yorimoi')
+    @work = Work.find(params[:id])
     @lists = @work.lists
   end
 end
