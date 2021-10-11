@@ -11,7 +11,6 @@ class CreateLists < ActiveRecord::Migration[5.2]
       t.string :scene
       t.string :theme
       t.string :other
-      t.integer :work_id
 
       t.timestamps
     end
