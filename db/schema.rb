@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_10_09_141042) do
   create_table "lists", force: :cascade do |t|
     t.string "work_name"
     t.string "episode"
+    t.string "episode_title"
     t.string "album"
     t.string "track"
     t.string "name"
