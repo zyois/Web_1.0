@@ -269,6 +269,7 @@ table {
 	border: solid 1px;
 	border-collapse:  collapse;
 	width: 100%;
+	table-layout: fixed;
 }
 /*1グループ*/
 tr {
@@ -298,6 +299,7 @@ td {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 10px;
+	word-break: break-word;
 }
 .listData .album {
 	width: 25px;

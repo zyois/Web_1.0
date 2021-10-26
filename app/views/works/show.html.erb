@@ -50,8 +50,7 @@
 						<% if before_episode != list.episode then %>
 							<p class="newListTitle"><%= list.episode_title %></p>
 							<table>
-							<tbody>
-							<tr>
+							<tr class="listData">
 								<th class="album">CD</th>
 								<th class="number">曲</th>
 								<th class="title">タイトル</th>
@@ -61,6 +60,8 @@
 								<th class="theme">テーマ</th>
 								<th class="supple">補足</th>
 							</tr>
+							</table>
+							<table>
 							<tr class="listData">
 								<td class="album"><%= list.album %></td>
 								<td class="number"><%= list.track %></td>
@@ -71,7 +72,6 @@
 								<td class="theme"><%= list.theme %></td>
 								<td class="supple"><%= list.other %></td>
 							</tr>
-							</tbody>
 							</table>
 						<% else %>
 							<table>
@@ -84,7 +84,7 @@
 								<td class="explanation"><%= list.scene %></td>
 								<td class="theme"><%= list.theme %></td>
 								<td class="supple"><%= list.other %></td>
-							</tr>		
+							</tr>
 							</table>
 						<% end %>
 						<% before_episode = list.episode %>
