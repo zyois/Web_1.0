@@ -10,37 +10,11 @@
 
 <body>
 	<div class="all">
-		<!--ヘッダー-->
-		<header class="container">
-			  <ul>
-				  <li><a href="../soundtrackMenu.html">Main</a></li>
-				  <li><a href="../soundtrackListMain.html">Soundtrack List</a></li>
-			  </ul>
-		</header>
+		<%= render "layouts/header.html.erb" %>
 			
 		<!--メイン-->
 		<div class="mainContents">
-			<!--タイトルサイドボックス-->
-			<div class="SideBox">
-				<ul>
-					<label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
-					<input type="checkbox" id="listAlbum"/>
-					<div class="hiddenShowPhone">
-						<div class="SideTab">
-							<label for="listSW"><li>Star Wars</li></label>
-							<input type="checkbox" id="listSW"/>			
-							<div class="hiddenShow">
-								<label for="listSWMando"><li class="side2">The Mandalorian</li></label>
-								<input type="checkbox" id="listSWMando"/>
-									<div class="hiddenShow">
-										<li class="side3"><a href="MandalorianS1.html">Season1</a></li>
-										<li class="side3"><a href="MandalorianS2.html">Season2</a></li>
-									</div>
-							</div>
-						</div>
-					</div>
-				</ul>
-			</div>
+			<%= render "layouts/side_box.html.erb" %>
 
 			<!--曲リスト-->
 			<div class="MainBox">

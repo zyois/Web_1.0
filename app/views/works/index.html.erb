@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<html lang="ja"></html>
+<title>List Menu | Soundtrack List</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+	<div class="all">
+	<!--ヘッダー-->
+        <%= render "layouts/header.html.erb" %>
+			
+		<!--タイトル欄-->
+		<div class="mainContents">		
+			<div class="MainBoxMenu">
+				<ul>
+					<div class="mainTab">
+						<label for="listSWMain"><li><h2 class="newListTitle">Star Wars</h2></li></label>
+						<input type="checkbox" id="listSWMain"/>			
+						<div class="hiddenShow">
+							<label for="listSWMandoMain"><li class="side2Main">The Mandalorian</li></label>
+							<input type="checkbox" id="listSWMandoMain"/>
+							<div class="hiddenShow">
+								<li class="side3Main"><a href="list/MandalorianS1.html">Season1</a></li>
+								<li class="side3Main"><a href="list/MandalorianS2.html">Season2</a></li>
+							</div>
+						</div>
+					</div>
+
+                    <div class="mainTab">
+                        <% @works.each do |work| %>
+                            <label for="listSWMain"><li><h2 class="newListTitle"><%= link_to work.name, work_path(work.name) %></h2></li></label>
+                        <% end %>
+                    </div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

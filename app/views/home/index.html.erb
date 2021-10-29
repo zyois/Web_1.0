@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Soundtrack List</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+	<div class="all">
+		<%= render "layouts/header.html.erb" %>
+
+		<!--メイン画像-->
+		<div class="MainPicture">
+			<figure class="MainVisual">
+				<%= image_tag "/assets/MainPicture2.png" %>
+			</figure>
+		</div>
+
+		<!--新着記事リスト-->
+		<div class="newList">
+			<p class="newListTitle">NEW</p>
+			<div class="newWork">
+				<div class="newDate">2021.08.09</div>
+				<div class="newTitle"><a href="list/MandalorianS2.html">The Mandalorian Season 2</a></div>
+			</div>
+			<div class="newWork">
+				<div class="newDate">2021.08.09</div>
+				<div class="newTitle"><a href="list/MandalorianS1.html">The Mandalorian Season 1</a></div>
+			</div>
+			<div class="listLast"></div>
+		</div>
+	</div>
+</body>
+</html>
