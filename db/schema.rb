@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 2021_10_09_141042) do
 
   create_table "works", force: :cascade do |t|
     t.string "name"
+    t.integer "level"
+    t.string "relation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
