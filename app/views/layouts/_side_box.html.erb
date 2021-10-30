@@ -19,3 +19,31 @@
         </div>
     </ul>
 </div>
+
+<div class="SideBox">
+    <ul>
+        <label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
+        <input type="checkbox" id="listAlbum"/>
+        <div class="hiddenShowPhone">
+            <div class="SideTab">
+                <% @works.each do |work| %>
+                    <% if  Seriese.where(work_name: work.name).count == 0 %>
+                        <label for="listSW"><li><%= link_to work.name, work_path(work.name) %></li></label>
+                    <% else %>
+                        <label for="listSW"><li><%= work.name %></li></label>
+                        <% @serieses.each do |seriese| %>
+                            <% if Season.where(seriese_name: seriese.name).count == 0 %>
+                                <label for="listSWMando"><li class="side2"><%= link_to seriese.name, work_path(seriese.name) %></li></label>
+                            <% else %>
+                                <label for="listSWMando"><li class="side2"><%= seriese.name %></h2></li></label>
+                                <% @seasons.each do |season| %>
+                                    <li class="side3"><%= link_to season.showed_name, work_path(season.name) %></a></li>
+                                <% end %>
+                            <% end %> 
+                        <% end %>
+                    <% end %>
+                <% end %>
+            </div>
+        </div>
+    </ul>
+</div>
