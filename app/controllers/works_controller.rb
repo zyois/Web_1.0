@@ -16,4 +16,10 @@ class WorksController < ApplicationController
     @work = Work.find_by(name: params[:id])
     @lists = List.where(work_name: @work.name)
   end
+
+  private
+
+  def html_safe_newline(str)
+    h(str).gsub(/\n|\r|\r\n/, "<br>").html_safe
+  end
 end
