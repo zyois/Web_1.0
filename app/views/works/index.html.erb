@@ -31,18 +31,22 @@
 					</div>
 
                     <div class="mainTab">
-                        <% @level1_works.each do |level1| %>
-                            <label for="listSWMain"><li><h2 class="newListTitle"><%= link_to level1.name, work_path(level1.name) %></h2></li></label>
-                            <% @level2_works.each do |level2| %>
-                                <% if level2.relation == level1.name then %>
-                                    <label for="listSWMandoMain"><li class="side2Main"><%= link_to level2.name, work_path(level2.name) %></li></label>  
-                                <% end %>
-                                <% @level3_works.each do |level3| %>
-                                    <% if level3.relation == level2.name and level2.relation == level1.name then %>
-                                        <li class="side3Main"><%= link_to level3.name, work_path(level3.name) %></a></li>
-                                    <% end %> 
-                                <% end %>
-                            <% end %>
+                        <% @works.each do |work| %>
+							<% if  Seriese.where(work_name: work.name).count == 0 %>
+								<label for="listSWMain"><li><h2 class="newListTitle"><%= link_to work.name, work_path(work.name) %></h2></li></label>
+							<% else %>
+								<label for="listSWMain"><li><h2 class="newListTitle"><%= work.name %></h2></li></label>
+								<% @serieses.each do |seriese| %>
+									<% if Season.where(seriese_name: seriese.name).count == 0 %>
+										<label for="listSWMandoMain"><li class="side2Main"><%= link_to seriese.name, work_path(seriese.name) %></li></label>
+									<% else %>
+										<label for="listSWMain"><li><h2 class="newListTitle"><%= seriese.name %></h2></li></label>
+										<% @seasons.each do |season| %>
+											<li class="side3Main"><%= link_to season.showed_name, work_path(season.name) %></a></li>
+										<% end %>
+									<% end %> 
+								<% end %>
+							<% end %>
                         <% end %>
                     </div>
 				</ul>

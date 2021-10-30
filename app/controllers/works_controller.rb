@@ -5,9 +5,8 @@ class WorksController < ApplicationController
   
   def index
     @works = Work.all
-    @level1_works = Work.where(level: 1)
-    @level2_works = Work.where(level: 2)
-    @level3_works = Work.where(level: 3)
+    @serieses = Seriese.all
+    @seasons = Season.all
   end
 
   def show
