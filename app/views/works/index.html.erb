@@ -36,19 +36,45 @@
 								<label for="listSWMain"><li><h2 class="newListTitle"><%= link_to work.name, work_path(work.name) %></h2></li></label>
 							<% else %>
 								<label for="listSWMain"><li><h2 class="newListTitle"><%= work.name %></h2></li></label>
+								<input type="checkbox" id="listSWMain"/>
+								<div class="hiddenShow">
+									<% @serieses.each do |seriese| %>
+										<% if Season.where(seriese_name: seriese.name).count == 0 %>
+											<label for="listSWMandoMain"><li class="side2Main"><%= link_to seriese.name, work_path(seriese.name) %></li></label>
+										<% else %>
+											<label for="listSWMandoMain"><li class="side2Main"><%= seriese.name %></li></label>
+											<input type="checkbox" id="listSWMandoMain"/>
+											<div class="hiddenShow">
+												<% @seasons.each do |season| %>
+													<li class="side3Main"><%= link_to season.showed_name, work_path(season.name) %></a></li>
+												<% end %>
+											</div>
+										<% end %>
+									<% end %>
+								</div>
+							<% end %>
+                        <% end %>
+                    </div>
+
+					<div class="mainTab">
+						<% @works.each do |work| %>
+							<% if  Seriese.where(work_name: work.name).count == 0 %>
+								<label for="listSWMain"><li><h2 class="newListTitle"><%= link_to work.name, work_path(work.name) %></h2></li></label>
+							<% else %>
+								<label for="listSWMain"><li><h2 class="newListTitle"><%= work.name %></h2></li></label>
 								<% @serieses.each do |seriese| %>
 									<% if Season.where(seriese_name: seriese.name).count == 0 %>
 										<label for="listSWMandoMain"><li class="side2Main"><%= link_to seriese.name, work_path(seriese.name) %></li></label>
 									<% else %>
-										<label for="listSWMain"><li><h2 class="newListTitle"><%= seriese.name %></h2></li></label>
+										<label for="listSWMandoMain"><li class="side2Main"><%= seriese.name %></li></label>
 										<% @seasons.each do |season| %>
 											<li class="side3Main"><%= link_to season.showed_name, work_path(season.name) %></a></li>
 										<% end %>
 									<% end %> 
 								<% end %>
 							<% end %>
-                        <% end %>
-                    </div>
+						<% end %>
+					</div>
 				</ul>
 			</div>
 		</div>
