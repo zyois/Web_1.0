@@ -246,7 +246,7 @@ ul li a:hover {
 /*曲リスト*/
 .MainBox {
 	width: 1000px;
-	heifght: auto;
+	height: auto;
 	float: left;
 	-webkit-text-size-adjust: 100%;
 }
@@ -486,7 +486,7 @@ td {
 		display: none;
 	}
 	tr .time {
-		width: 19.5%;
+		width: 17.5%;
 		display: inline-block;
 		text-align: center;
 		padding-top: 5px;
@@ -530,7 +530,7 @@ td {
 		display: none;
 	}
 	/*見出し*/
-	th {	
+	th {
 		border-left: none;
 		border-right: none;
 		border-bottom: solid 1px;
@@ -549,7 +549,8 @@ td {
 		border-color: darkgray;
 	}
 	.listData .album {
-		width: 10%;
+		width: 50px;
+		/* width: 10%; */
 		display: inline-block;
 		padding-right: none;
 		padding-top: 5px;
@@ -564,7 +565,8 @@ td {
 		display: none;
 	}
 	.listData .time {
-		width: 17.5%;
+		width: 86px;
+		/* width: 17.5%; */
 		text-align: center;
 		display: inline-block;
 		border-left: solid 1px;
@@ -575,7 +577,8 @@ td {
 		padding-bottom: 5px;
 	}
 	.listData .title {
-		width: 70%;
+		width: 450px;
+		/* width: 70%; */
 		text-align: center;
 		display: inline-block;
 		border-left: solid 1px;
@@ -586,7 +589,8 @@ td {
 		padding-bottom: 5px;
 	}
 	.listData .explanation {
-		width: 99%;
+		width: 594px;
+		/* width: 99%; */
 		text-align: center;
 		display: block;
 		padding-right: none;
@@ -594,7 +598,8 @@ td {
 		padding-bottom: 5px;
 	}
 	.listData .theme {
-		width: 99%;
+		/* width: 99%; */
+		width: 594px;
 		text-align: center;
 		display: block;
 		padding-right: none;
@@ -625,10 +630,30 @@ td {
 		width: 270px;
 	}
 	
-	tr .time {
-		width: 19%;
-	}	
-	.listData .time {
-		width: 15.5%;
+	.listData .album {
+		width: 35px;
 	}
+
+	.listData .time {
+		width: 61px;
+	}
+
+	.listData .title {
+		width: 160px;
+	}
+
+	.listData .explanation {
+		width: 264px;
+	}
+
+	.listData .theme {
+		width: 264px;
+	}
+
+	/* tr .time {
+		width: 19%;
+	}	 */
+	/* .listData .time {
+		width: 15.5%;
+	} */
 }
