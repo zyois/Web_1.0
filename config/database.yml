@@ -86,3 +86,6 @@ production:
   database: Web_1_0_production
   username: Web_1_0
   password: <%= ENV['WEB_1_0_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
