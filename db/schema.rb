@@ -16,12 +16,12 @@ ActiveRecord::Schema.define(version: 2021_10_30_040438) do
   enable_extension "plpgsql"
 
   create_table "lists", force: :cascade do |t|
-    t.string "work_name"
+    t.string "name"
+    t.string "showed_name"
     t.string "episode"
     t.string "episode_title"
     t.string "album"
     t.string "track"
-    t.string "name"
     t.string "time"
     t.string "timing"
     t.string "scene"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2021_10_30_040438) do
 
   create_table "serieses", force: :cascade do |t|
     t.string "name"
+    t.string "showed_name"
     t.string "work_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -48,6 +49,7 @@ ActiveRecord::Schema.define(version: 2021_10_30_040438) do
 
   create_table "works", force: :cascade do |t|
     t.string "name"
+    t.string "showed_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

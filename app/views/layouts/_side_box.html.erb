@@ -5,42 +5,27 @@
         <input type="checkbox" id="listAlbum"/>
         <div class="hiddenShowPhone">
             <div class="SideTab">
-                <label for="listSW"><li>Star Wars</li></label>
-                <input type="checkbox" id="listSW"/>			
-                <div class="hiddenShow">
-                    <label for="listSWMando"><li class="side2">The Mandalorian</li></label>
-                    <input type="checkbox" id="listSWMando"/>
-                        <div class="hiddenShow">
-                            <li class="side3"><a href="MandalorianS1.html">Season1</a></li>
-                            <li class="side3"><a href="MandalorianS2.html">Season2</a></li>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </ul>
-</div>
-
-<div class="SideBox">
-    <ul>
-        <label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
-        <input type="checkbox" id="listAlbum"/>
-        <div class="hiddenShowPhone">
-            <div class="SideTab">
                 <% @works.each do |work| %>
                     <% if  Seriese.where(work_name: work.name).count == 0 %>
-                        <label for="listSW"><li><%= link_to work.name, work_path(work.name) %></li></label>
+                        <li><%= link_to work.showed_name, work_path(work.name) %></li>
                     <% else %>
-                        <label for="listSW"><li><%= work.name %></li></label>
-                        <% @serieses.each do |seriese| %>
-                            <% if Season.where(seriese_name: seriese.name).count == 0 %>
-                                <label for="listSWMando"><li class="side2"><%= link_to seriese.name, work_path(seriese.name) %></li></label>
-                            <% else %>
-                                <label for="listSWMando"><li class="side2"><%= seriese.name %></h2></li></label>
-                                <% @seasons.each do |season| %>
-                                    <li class="side3"><%= link_to season.showed_name, work_path(season.name) %></a></li>
+                        <label for= <%= work.name %> ><li><%= work.showed_name %></li></label>
+                        <input type="checkbox" id= <%= work.name %> />
+                        <div class="hiddenShow">
+                            <% @serieses.each do |seriese| %>
+                                <% if Season.where(seriese_name: seriese.name).count == 0 %>
+                                    <li class="side2"><%= link_to seriese.showed_name, work_path(seriese.name) %></li>
+                                <% else %>
+                                    <label for= <%= seriese.name %> ><li class="side2"><%= seriese.showed_name %></li></label>
+                                    <input type="checkbox" id= <%= seriese.name %> />
+                                    <div class="hiddenShow">
+                                        <% @seasons.each do |season| %>
+                                            <li class="side3"><%= link_to season.showed_name, work_path(season.name) %></li>
+                                        <% end %>
+                                    </div>
                                 <% end %>
-                            <% end %> 
-                        <% end %>
+                            <% end %>
+                        </div>
                     <% end %>
                 <% end %>
             </div>

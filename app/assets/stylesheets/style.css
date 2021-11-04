@@ -20,11 +20,11 @@ body {
 	margin: 0 auto;
 	display: grid;
 }
-ul li a {
+.container ul li a {
     text-decoration: none;
     color: #FFFFFF;
 }
-ul li a:hover {
+.container ul li a:hover {
     color: #EBDE3A;
 }
 
