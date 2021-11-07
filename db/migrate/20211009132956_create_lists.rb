@@ -7,7 +7,7 @@ class CreateLists < ActiveRecord::Migration[5.2]
       t.string :episode_title
       t.string :album
       t.string :track
-      t.string :name
+      t.string :title
       t.string :time
       t.string :timing
       t.string :scene

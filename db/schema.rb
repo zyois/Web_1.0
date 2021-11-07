@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2021_10_30_040438) do
     t.string "episode_title"
     t.string "album"
     t.string "track"
+    t.string "title"
     t.string "time"
     t.string "timing"
     t.string "scene"
