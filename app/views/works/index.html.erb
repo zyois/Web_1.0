@@ -25,14 +25,14 @@
 								<label for= <%= work.name %> ><li><h2 class="newListTitle"><%= work.showed_name %></li></label>
 								<input type="checkbox" id= <%= work.name %> />
 								<div class="hiddenShow">
-									<% @serieses.each do |seriese| %>
+									<% @serieses.where(work_name: work.name).each do |seriese| %>
 										<% if Season.where(seriese_name: seriese.name).count == 0 %>
 											<li class="side2Main"><%= link_to seriese.showed_name, work_path(seriese.name) %></li>
 										<% else %>
 											<label for= <%= seriese.name %> ><li class="side2Main"><%= seriese.showed_name %></li></label>
 											<input type="checkbox" id= <%= seriese.name %> />
 											<div class="hiddenShow">
-												<% @seasons.each do |season| %>
+												<% @seasons.where(seriese_name: seriese.name).each do |season| %>
 													<li class="side3Main"><%= link_to season.showed_name, work_path(season.name) %></li>
 												<% end %>
 											</div>
