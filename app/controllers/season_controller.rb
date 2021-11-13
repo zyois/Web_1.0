@@ -1,2 +1,0 @@
-class SeasonController < ApplicationController
-end

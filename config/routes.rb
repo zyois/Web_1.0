@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   root 'home#index'
-  resources :works
-  resources :serieses
-  resources :seasons
+  resources :works do
+    resources :serieses do
+      resources :seasons
+    end
+  end
   resources :lists
 end
