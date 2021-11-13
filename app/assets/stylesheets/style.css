@@ -161,7 +161,7 @@ body {
 }
 
 /*タブの中身を非表示*/
-.MainBoxMenu .hiddenShow {
+.mainTab .hiddenShow {
 	height: 0;
 	overflow: hidden;
 }
