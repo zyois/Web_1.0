@@ -1,2 +1,0 @@
-class SerieseController < ApplicationController
-end

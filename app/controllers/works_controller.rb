@@ -15,7 +15,6 @@ class WorksController < ApplicationController
     @seasons = Season.all
     @work = Work.find_by(name: params[:id])
     @seriese = Seriese.find_by(name: params[:id])
-    @lists = List.where(name: @seriese.name)
     @lists = List.where(name: @work.name)
   end
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<html lang="ja"></html>
+<title>The Mandalorian S1 | Soundtrack List</title>
+<%= stylesheet_link_tag 'application' %>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+	<div class="all">
+		<%= render "layouts/header.html.erb" %>
+			
+		<!--メイン-->
+		<div class="mainContents">
+			<%= render "layouts/side_box.html.erb" %>
+
+			<!--曲リスト-->
+			<div class="MainBox">
+				<% before_episode = 0 %>
+				<div class="AllList">
+					<% @lists.each do |list| %>
+						<% if before_episode != list.episode then %>
+							<p class="newListTitle"><%= list.episode_title %></p>
+							<table>
+							<tr class="listData">
+								<th class="album">CD</th>
+								<th class="number">曲</th>
+								<th class="title">タイトル</th>
+								<th class="range">使用箇所</th>
+								<th class="time">タイミング</th>
+								<th class="explanation">場面</th>
+								<th class="theme">テーマ</th>
+								<th class="supple">補足</th>
+							</tr>
+							</table>
+							<table>
+							<tr class="listData">
+								<td class="album"><%= h(list.album.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="number"><%= h(list.track.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="title"><%= h(list.title.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="range"><%= h(list.time.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="time"><%= h(list.timing.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="explanation"><%= h(list.scene.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="theme"><%= h(list.theme.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="supple"><%= h(list.other.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+							</tr>
+							</table>
+						<% else %>
+							<table>
+							<tr class="listData">
+								<td class="album"><%= h(list.album.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="number"><%= h(list.track.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="title"><%= h(list.title.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="range"><%= h(list.time.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="time"><%= h(list.timing.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="explanation"><%= h(list.scene.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="theme"><%= h(list.theme.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+								<td class="supple"><%= h(list.other.to_s).gsub(/\\n/, "<br>").html_safe %></td>
+							</tr>
+							</table>
+						<% end %>
+						<% before_episode = list.episode %>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
