@@ -1,34 +1,37 @@
 <!--タイトルサイドボックス-->
 <div class="SideBox">
-    <ul>
-        <label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
-        <input type="checkbox" id="listAlbum"/>
-        <div class="hiddenShowPhone">
-            <div class="SideTab">
-                <% @works.each do |work| %>
-                    <% if  Seriese.where(work_name: work.name).count == 0 %>
-                        <li><%= link_to work.showed_name, work_path(work.name) %></li>
-                    <% else %>
-                        <label for= <%= work.name %> ><li><%= work.showed_name %></li></label>
-                        <input type="checkbox" id= <%= work.name %> />
-                        <div class="hiddenShow">
-                            <% @serieses.each do |seriese| %>
-                                <% if Season.where(seriese_name: seriese.name).count == 0 %>
-                                    <li class="side2"><%= link_to seriese.showed_name, work_path(seriese.name) %></li>
-                                <% else %>
-                                    <label for= <%= seriese.name %> ><li class="side2"><%= seriese.showed_name %></li></label>
-                                    <input type="checkbox" id= <%= seriese.name %> />
-                                    <div class="hiddenShow">
-                                        <% @seasons.each do |season| %>
-                                            <li class="side3"><%= link_to season.showed_name, work_path(season.name) %></li>
-                                        <% end %>
-                                    </div>
-                                <% end %>
-                            <% end %>
-                        </div>
-                    <% end %>
-                <% end %>
-            </div>
+  <ul>
+    <label for="listAlbum" id="titleListPhone"><li>Title List</li></label>
+      <input type="checkbox" id="listAlbum"/>
+      <div class="hiddenShowPhone">
+        <div class="SideTab">
+          <ul>
+            <li><%= link_to '宇宙よりも遠い場所', work_path('yorimoi') %></li>
+            <label for= 'evangelion' >
+              <li><%= 'エヴァンゲリオン' %></li>
+              <input type="checkbox" id= 'evangelion' >
+              <div class="hiddenShow">
+                <li class="side2"><%= link_to '新世紀エヴァンゲリオン', work_seriese_path('evangelion', 'evangelion_tv') %></li>
+              </div>
+            </label>
+            <label for= 'starwars' >
+              <li><%= 'Star Wars' %></label></li>
+              <input type="checkbox" id= 'starwars' >
+              <div class="hiddenShow">
+                <li class="side2"><%= link_to 'The Clone Wars', work_seriese_path('starwars', 'theclonewars') %></li>
+                <label for= 'mandalorian' >
+                  <li class="side2"><%= 'The Mandalorian' %></li>
+                  <input type="checkbox" id= 'mandalorian' >
+                  <div class="hiddenShow">
+                    <li class="side3"><%= link_to 'Season 1', work_seriese_season_path('starwars', 'mandalorian', 'Mando1') %></li>
+                    <li class="side3Main"><%= link_to 'Season 2', work_seriese_season_path('starwars', 'mandalorian', 'Mando2') %></li>
+                  </div>
+                </label>
+              </div>
+            </label>
+          </ul>
         </div>
-    </ul>
+      </div>
+    </label>
+  </ul>
 </div>
