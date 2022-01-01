@@ -1,219 +1,215 @@
 ﻿empty,name,showed_name,episode,episode_title,album,track,title,time,timing,scene,theme,other
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,1,Hey Mando! ,　,0:01:09,マルド・クレイスの酒場で格闘するディン,ディン･ジャリン,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,,　,　,0:03:46,クバーズがランドスピーダーを呼ぶ合図1,,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,,　,　,0:04:11,クバーズがランドスピーダーを呼ぶ合図2,,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,,　,　,0:05:50,＜レイザークレスト＞に襲いかかるラヴィナック,,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,,　,　,0:08:38,炭素冷凍されるミスロル,ディン･ジャリン,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,,　,　,0:10:39,ネヴァロの酒場で流れているBGM,,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,2,Face to Face,　,0:12:37,”クライアント”と対面するディン,"デンジャリン
-クライアント",曲間無し(A)
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,3,Back for Beskar,　,0:17:42,マンダロリアンの地下の隠れ家へ向かうディン,マンダロリアン,曲間無し(B)
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,4,HammerTime,　,0:20:04,ベスカー製ポールドロンを製造する”アーマラー”,"ディン･ジャリン\n
-マンダロアの教義",曲間無し(C)
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,5,Blurg Attack,　,0:22:54,プラーグに襲われるディン,"クイール\n
-ディン･ジャリン",
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,6,You Are a Mandalorian,　,0:24:54,プラーグに乗る練習をするディン,"ディン･ジャリン\n
-クイール",
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,7,Bounty Droid,　,0:30:46,IG-11と共闘するディン,,
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,8,The Asset,　,0:34:45,”チャイルド”を発見するディンら,"チャイルド\n
-ディン･ジャリン",
-,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,9,The Mandalorian,0:46~,0:36:09,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,2,Chapter 2: The Child,2,,　,　,0:00:00,あらすじ,ディン･ジャリン,"以下に近い曲を含む\n
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,1,Hey Mando! ,　,0:01:09,マルド・クレイスの酒場で格闘するディン,・ディン・ジャリン,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,　,　,　,0:03:46,クバーズがランドスピーダーを呼ぶ合図1,　,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,　,　,　,0:04:11,クバーズがランドスピーダーを呼ぶ合図2,　,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,　,　,　,0:05:50,＜レイザークレスト＞に襲いかかるラヴィナック,　,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,　,　,　,0:08:38,炭素冷凍されるミスロル,・ディン・ジャリン,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,　,　,　,0:10:39,ネヴァロの酒場で流れているBGM,　,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,2,Face to Face,　,0:12:37,クライアントと対面するディン,"・デンジャリン
+・クライアント",曲間無し(A)
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,3,Back for Beskar,　,0:17:42,マンダロリアンの地下の隠れ家へ向かうディン,・マンダロリアン,曲間無し(B)
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,4,HammerTime,　,0:20:04,ベスカー製ポールドロンを製造するアーマラー,"・ディン・ジャリン\n
+・マンダロアの教義",曲間無し(C)
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,5,Blurg Attack,　,0:22:54,プラーグに襲われるディン,"・クイール\n
+・ディン・ジャリン",　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,6,You Are a Mandalorian,　,0:24:54,プラーグに乗る練習をするディン,"・ディン・ジャリン\n
+・クイール",　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,7,Bounty Droid,　,0:30:46,IG-11と共闘するディン,　,　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,8,The Asset,　,0:34:45,チャイルドを発見するディンら,"・チャイルド\n
+・ディン・ジャリン",　
+,Mando1,Season 1,1,Chapter 1: The Mandalorian,1,9,The Mandalorian,0:46〜,0:36:09,エンド・クレジット,・ディン・ジャリン,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,　,　,　,0:00:00,あらすじ,・ディン・ジャリン,"以下に近い曲を含む\n
 1-2「Face to Face」(3:22~3:29)\n
 2-3「Trashed Crest」(1:34~1:43)"
-,Mando1,Season 1,2,Chapter 2: The Child,2,,　,　,0:01:03,ロゴ,,
-,Mando1,Season 1,2,Chapter 2: The Child,2,1,Walking on Mud,　,0:01:20,”チャイルド”を狙うトランドーシャン,ディン･ジャリン,
-,Mando1,Season 1,2,Chapter 2: The Child,2,,　,　,0:04:10,ディンの傷を癒そうとする”チャイルド”,,
-,Mando1,Season 1,2,Chapter 2: The Child,2,2,Jawas Attack,　,0:05:06,サンドクローラーを追い掛けるディン,"マンドーとチャイルド\n
-ジャワ",
+,Mando1,Season 1,2,Chapter 2: The Child,2,　,　,　,0:01:03,ロゴ,　,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,1,Walking on Mud,　,0:01:20,チャイルドを狙うトランドーシャン,・ディン・ジャリン,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,　,　,　,0:04:10,ディンの傷を癒そうとするチャイルド,　,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,2,Jawas Attack,　,0:05:06,サンドクローラーを追い掛けるディン,"・マンドーとチャイルド\n
+・ジャワ",　
 ,Mando1,Season 1,2,Chapter 2: The Child,2,3,Trashed Crest,　,0:09:06,"＜レイザークレスト＞の損傷具合を調べるディン\n
-クイールに再会するディン",ディン･ジャリン,
-,Mando1,Season 1,2,Chapter 2: The Child,2,4,To the Jawas,　,0:12:02,ジャワの元へ向かうディンとクイール,"ディン･ジャリン\n
-ジャワ\n
-クイール",
-,Mando1,Season 1,2,Chapter 2: The Child,2,5,The Egg,　,0:14:54,マッドホーンの巣へ向かうディン,"ディン･ジャリン\n
-ジャワ\n
-マンダロリアン",
-,Mando1,Season 1,2,Chapter 2: The Child,2,6,The Mudhorn,　,0:17:48,マッドホーンと格闘するディン,"チャイルド\n
-ディン･ジャリン",
-,Mando1,Season 1,2,Chapter 2: The Child,2,,　,　,0:20:46,卵を確保するディン,,
-,Mando1,Season 1,2,Chapter 2: The Child,2,7,Celebration,　,0:22:09,卵を持ち帰るディン,"ジャワ\n
-クイール\n
-ディン･ジャリン",
-,Mando1,Season 1,2,Chapter 2: The Child,2,8,The Next Journey,　,0:25:50,クイールと別れるディン,"クイール\n
-ディン･ジャリン",
-,Mando1,Season 1,2,Chapter 2: The Child,2,9,The Mandalorian,0:46~,0:28:19,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,3,Chapter 3: The Sin,3,,　,　,0:00:00,あらすじ,"ディン･ジャリン\n
-ジャワ","以下に近い曲を含む\n
+クイールに再会するディン",・ディン・ジャリン,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,4,To the Jawas,　,0:12:02,ジャワの元へ向かうディンとクイール,"・ディン・ジャリン\n
+・ジャワ\n
+・クイール",　
+,Mando1,Season 1,2,Chapter 2: The Child,2,5,The Egg,　,0:14:54,マッドホーンの巣へ向かうディン,"・ディン・ジャリン\n
+・ジャワ\n
+・マンダロリアン",　
+,Mando1,Season 1,2,Chapter 2: The Child,2,6,The Mudhorn,　,0:17:48,マッドホーンと格闘するディン,"・チャイルド\n
+・ディン・ジャリン",　
+,Mando1,Season 1,2,Chapter 2: The Child,2,　,　,　,0:20:46,卵を確保するディン,　,　
+,Mando1,Season 1,2,Chapter 2: The Child,2,7,Celebration,　,0:22:09,卵を持ち帰るディン,"・ジャワ\n
+・クイール\n
+・ディン・ジャリン",　
+,Mando1,Season 1,2,Chapter 2: The Child,2,8,The Next Journey,　,0:25:50,クイールと別れるディン,"・クイール\n
+・ディン・ジャリン",　
+,Mando1,Season 1,2,Chapter 2: The Child,2,9,The Mandalorian,0:46〜,0:28:19,エンド・クレジット,・ディン・ジャリン,　
+,Mando1,Season 1,3,Chapter 3: The Sin,3,　,　,　,0:00:00,あらすじ,"・ディン・ジャリン\n
+・ジャワ","以下に近い曲を含む\n
 1-3「Back for Beskar」(0:01~0:07)\n
 2-6「The Mudhorn」(1:28~1:38，2:44~)\n
 2-8「The Next Journey」(0:43~1:00)\n
 2-2「Jawas Attack」(0:49~0:58)\n
 2-6「The Mudhorn」(1:08~1:18)"
-,Mando1,Season 1,3,Chapter 3: The Sin,3,,　,　,0:01:18,ロゴ,,
-,Mando1,Season 1,3,Chapter 3: The Sin,3,1,A New Day,　,0:02:14,報酬を受け取るディン,"チャイルド\n
-ディン･ジャリン\n
-クライアント",曲間無し(A)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,2,Mandalore Way,　,0:07:50,マンダロリアンの地下の隠れ家へ戻るディン,"マンダロリアン\n
-ディン･ジャリン",曲間無し(B)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,3,Signet Forging,　,0:11:58,ベスカー製のアーマーを製造する”アーマラー”,"マンダロアの教義\n
-ディン･ジャリン",
-,Mando1,Season 1,3,Chapter 3: The Sin,3,,　,　,0:14:08,新アーマーで酒場に現れるディン,,
-,Mando1,Season 1,3,Chapter 3: The Sin,3,,　,　,0:17:27,”チャイルド”を奪還しに戻るディン,チャイルド,曲間無し(A)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,4,Second Thoughts,　,0:19:58,”チャイルド”を奪還するディン,"ディン･ジャリン\n
-マンダロリアン",曲間無し(B)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,5,Whistling Bird,　,0:24:17,ディンにチャイルドを渡すよう告げるグリーフ,マンダロリアン,
-,Mando1,Season 1,3,Chapter 3: The Sin,3,,　,　,0:26:51,ディンを襲うグリーフ,"ディン･ジャリン\n
-チャイルド",曲間無し(A)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,6,Mando Rescue,0:25~,0:29:23,ディンを救うために駆けつけるマンダロリアン,"マンダロリアン\n
-マンダロアの教義\n
-ディン･ジャリン",曲間無し(B)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,　,　,　,0:01:18,ロゴ,　,　
+,Mando1,Season 1,3,Chapter 3: The Sin,3,1,A New Day,　,0:02:14,報酬を受け取るディン,"・チャイルド\n
+・ディン・ジャリン\n
+・クライアント",曲間無し(A)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,2,Mandalore Way,　,0:07:50,マンダロリアンの地下の隠れ家へ戻るディン,"・マンダロリアン\n
+・ディン・ジャリン",曲間無し(B)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,3,Signet Forging,　,0:11:58,ベスカー製のアーマーを製造するアーマラー,"・マンダロアの教義\n
+・ディン・ジャリン",　
+,Mando1,Season 1,3,Chapter 3: The Sin,3,　,　,　,0:14:08,新アーマーで酒場に現れるディン,　,　
+,Mando1,Season 1,3,Chapter 3: The Sin,3,　,　,　,0:17:27,チャイルドを奪還しに戻るディン,・チャイルド,曲間無し(A)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,4,Second Thoughts,　,0:19:58,チャイルドを奪還するディン,"・ディン・ジャリン\n
+・マンダロリアン",曲間無し(B)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,5,Whistling Bird,　,0:24:17,ディンにチャイルドを渡すよう告げるグリーフ,・マンダロリアン,　
+,Mando1,Season 1,3,Chapter 3: The Sin,3,　,　,　,0:26:51,ディンを襲うグリーフ,"・ディン・ジャリン\n
+・チャイルド",曲間無し(A)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,6,Mando Rescue,0:25〜,0:29:23,ディンを救うために駆けつけるマンダロリアン,"・マンダロリアン\n
+・マンダロアの教義\n
+・ディン・ジャリン",曲間無し(B)
 ,Mando1,Season 1,3,Chapter 3: The Sin,3,7,I Need One of Those,　,0:31:07,"ディンの前に立ちふさがるグリーフ\n
-ネヴァロを出発するディン",ディン･ジャリン,曲間無し(C)
-,Mando1,Season 1,3,Chapter 3: The Sin,3,9,The Mandalorian,0:46~,0:32:33,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:00:00,あらすじ,ディン･ジャリン,"以下にに近い曲を含む\n
-1-2「Face to Face」(3:22~4:03, ~0:05, 0:21~0:26)"
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:01:09,ロゴ,,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,1,The Ponds of Sorgan,~0:50,0:01:28,平和に暮らすソウガンの農民,ソーガン,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,1,The Ponds of Sorgan,1:04~,0:02:32,ソーガンの村を襲撃する略奪団,"略奪団\n
-ディン･ジャリン",
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,2,Off the Grid,　,0:05:01,ソーガンに到着するディンら,"ディン･ジャリン\n
-ソーガン",
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:06:59,ソーガンの寄合所で流れているBGM,,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:08:25,キャラを追跡するディン,,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:13:32,村へ到着するディンら,ソーガン,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,3,Can I Feed Him?,　,0:15:15,オメラと出会うディン,"ソーガン\n
-ディン･ジャリン",
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,4,Training the Plebs,　,0:19:30,農民を鍛えるディンとキャラ,"略奪団\n
-ディン･ジャリン",曲間無し(A)
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,5,Camp Attack,　,0:22:24,略奪団の拠点を襲撃するディンとキャラ,,曲間無し(B)
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,6,Spirit of the Woods,　,0:24:50,略奪団と争う農民,"略奪団\n
-ディン･ジャリン",曲間無し(A)
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:29:52,”チャイルド”を観察する子供ら,"ソーガン\n
-ディン･ジャリン",曲間無し(B)
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,,　,　,0:31:36,キャラと会話するディン,ディン･ジャリン,
+ネヴァロを出発するディン",・ディン・ジャリン,曲間無し(C)
+,Mando1,Season 1,3,Chapter 3: The Sin,3,9,The Mandalorian,0:46〜,0:32:33,エンド・クレジット,・ディン・ジャリン,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:01:09,ロゴ,　,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,1,The Ponds of Sorgan,〜0:50,0:01:28,平和に暮らすソウガンの農民,・ソーガン,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,1,The Ponds of Sorgan,1:04〜,0:02:32,ソーガンの村を襲撃する略奪団,"・略奪団\n
+・ディン・ジャリン",　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,2,Off the Grid,　,0:05:01,ソーガンに到着するディンら,"・ディン・ジャリン\n
+・ソーガン",　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:06:59,ソーガンの寄合所で流れているBGM,　,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:08:25,キャラを追跡するディン,　,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:13:32,村へ到着するディンら,・ソーガン,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,3,Can I Feed Him?,　,0:15:15,オメラと出会うディン,"・ソーガン\n
+・ディン・ジャリン",　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,4,Training the Plebs,　,0:19:30,農民を鍛えるディンとキャラ,"・略奪団\n
+・ディン・ジャリン",曲間無し(A)
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,5,Camp Attack,　,0:22:24,略奪団の拠点を襲撃するディンとキャラ,　,曲間無し(B)
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,6,Spirit of the Woods,　,0:24:50,略奪団と争う農民,"・略奪団\n
+・ディン・ジャリン",曲間無し(A)
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:29:52,チャイルドを観察する子供ら,"・ソーガン\n
+・ディン・ジャリン",曲間無し(B)
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,　,　,　,0:31:36,キャラと会話するディン,・ディン・ジャリン,　
 ,Mando1,Season 1,4,Chapter 4: Sanctuary,4,7,Stay,　,0:32:49,"オメラと話すディン\n
-”チャイルド”を狙う賞金稼ぎを殺すキャラ",略奪団,
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,8,Mando Says Goodbye,　,0:35:17,農民らと別れるディンら,"ソーガン\n
-ディン･ジャリン",
-,Mando1,Season 1,4,Chapter 4: Sanctuary,4,9,The Mandalorian,0:46~,0:36:30,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:00:00,あらすじ,"チャイルド\n
-ディン･ジャリン","以下に近い曲を含む\n
+チャイルドを狙う賞金稼ぎを殺すキャラ",・略奪団,　
+,Mando1,Season 1,4,Chapter 4: Sanctuary,4,8,Mando Says Goodbye,　,0:35:17,農民らと別れるディンら,"・ソーガン\n
+・ディン・ジャリン",　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,　,　,　,0:00:00,あらすじ,"・チャイルド\n
+・ディン・ジャリン","以下に近い曲を含む\n
 2-3「Trashed Crest」(1:34~1:44，0:21~0:31)"
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:00:58,ロゴ,,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,1,Warm or Cold,1:14~,0:02:23,ライオットを撃墜するディン,ディン･ジャリン,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:05:38,モス・アイズリー市街を歩くディン,,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,2,Bright Eyes,　,0:06:23,”チャイルド”を見つけるペリ,陽気なチャイルド,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,3,Stuck with Me Now,　,0:08:32,トロに声を掛けられるディン,フェネック･シャンド,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,4,Speederbikes,　,0:11:55,スピーダーで走るディンら,"ディン･ジャリン\n
-疾走",曲間無し(A)
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,5,Raiders,~0:53,0:13:11,タスケン・レイダーと遭遇するディンら,ディン･ジャリン,曲間無し(B)
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:14:38,スピーダーで走るディンら2,疾走,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:15:54,賞金稼ぎの死体を発見するディン,,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,5,Raiders,0:53~,0:16:02,ディンを狙撃するフェネック,,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:17:05,日が暮れるのを待つトロら,フェネック･シャンド,
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,6,Night Riders,　,0:18:03,フェネックを捕らえに向かうディンら,"疾走\n
-フェネック･シャンド",
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,　,　,　,0:00:58,ロゴ,　,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,1,Warm or Cold,1:14〜,0:02:23,ライオットを撃墜するディン,・ディン・ジャリン,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,　,　,　,0:05:38,モス・アイズリー市街を歩くディン,　,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,2,Bright Eyes,　,0:06:23,チャイルドを見つけるペリ,・陽気なチャイルド,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,3,Stuck with Me Now,　,0:08:32,トロに声を掛けられるディン,・フェネック・シャンド,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,4,Speederbikes,　,0:11:55,スピーダーで走るディンら,"・ディン・ジャリン\n
+・疾走",曲間無し(A)
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,5,Raiders,〜0:53,0:13:11,タスケン・レイダーと遭遇するディンら,・ディン・ジャリン,曲間無し(B)
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,　,　,　,0:14:38,スピーダーで走るディンら2,・疾走,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,　,　,　,0:15:54,賞金稼ぎの死体を発見するディン,　,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,5,Raiders,0:53〜,0:16:02,ディンを狙撃するフェネック,　,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,,　,　,0:17:05,日が暮れるのを待つトロら,・フェネック・シャンド,　
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,6,Night Riders,　,0:18:03,フェネックを捕らえに向かうディンら,"・疾走\n
+・フェネック・シャンド",　
 ,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,7,The Hangar,　,0:22:21,"フェネックを撃つトロ\n
-トロを撃ち殺すディン","フェネック･シャンド\n
-ディン･ジャリン",曲間無し(A)
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,8,Farewell,　,0:28:19,タトゥイーンを出発するディンら,"チャイルド\n
-ディン･ジャリン\n
-陽気なチャイルド\n
-フェネック･シャンド",曲間無し(B)
-,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,9,The Mandalorian,0:46~,0:30:23,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:00:00,あらすじ,,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:00:42,ロゴ,,曲間無し(A)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,1,Welcome Back,　,0:00:55,ランザーと再会するディン,ディン･ジャリン,曲間無し(B)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,2,The Gang,　,0:04:43,シアンと再会するディン,"メイフェルドのチーム\n
-シアン\n
-ディン･ジャリン",
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:06:33,作戦を説明するメイフェルドら,潜入作戦,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,3,Greatest Warriors in the Galaxy,　,0:08:54,＜レイザークレスト＞内の武器庫を発見するバーグ,ディン･ジャリン,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,4,Let's Just Do It,　,0:10:47,ヘルメットを取るよう誂われるディン,,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:12:09,”チャイルド”を抱くメイフェルド,メイフェルドのチーム,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,5,Hyperspace,　,0:12:48,監獄船へ潜入するディンら,"潜入作戦\n
-メイフェルドのチーム",曲間無し(A)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,6,Little Mousey,　,0:15:31,セキュリティ・ドロイドと闘うディン,裏切り,曲間無し(B)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,7,Tracking Beacon,　,0:18:23,ダヴィンを殺すシアン,シアン,曲間無し(A)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:21:16,セキュリティ・ドロイドを破壊するバーグ,潜入作戦,曲間無し(B)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,8,My Saviour,　,0:22:05,監房に閉じ込められるディン,裏切り,曲間無し(C)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:23:01,監房内を彷徨くセキュリティ・ドロイド,,曲間無し(D)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,9,Mando on the Move,　,0:23:17,監房から脱走するディン,ディン･ジャリン,
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,10,Nice Family,　,0:24:24,分断されるメイフェルドら,潜入作戦,曲間無し(A)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,11,Mando's Back,　,0:26:43,メイフェルドらを襲うディン,"シアン\n
-裏切り\n
-ディン･ジャリン",曲間無し(B)
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:33:55,ステーションへ帰還するディン,"ディン･ジャリン\n
-裏切り",
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,,　,　,0:37:41,"”チャイルド”にレバーの部品をあげるディン\n
-監房内のシアンら","ディン･ジャリン\n
-メイフェルドのチーム",
-,Mando1,Season 1,6,Chapter 6: The Prisoner,6,9,The Mandalorian,0:46~,0:38:30,エンド・クレジット,ディン･ジャリン,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:00:00,あらすじ,ディン･ジャリン,"以下に近い曲を含む\n
+トロを撃ち殺すディン","・フェネック・シャンド\n
+・ディン・ジャリン",曲間無し(A)
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,8,Farewell,　,0:28:19,タトゥイーンを出発するディンら,"・チャイルド\n
+・ディン・ジャリン\n
+・陽気なチャイルド\n
+・フェネック・シャンド",曲間無し(B)
+,Mando1,Season 1,5,Chapter 5: The Gunslinger,5,9,The Mandalorian,0:46〜,0:30:23,エンド・クレジット,・ディン・ジャリン,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:00:00,あらすじ,　,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:00:42,ロゴ,　,曲間無し(A)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,1,Welcome Back,　,0:00:55,ランザーと再会するディン,・ディン・ジャリン,曲間無し(B)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,2,The Gang,　,0:04:43,シアンと再会するディン,"・メイフェルドのチーム\n
+・シアン\n
+・ディン・ジャリン",　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:06:33,作戦を説明するメイフェルドら,・潜入作戦,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,3,Greatest Warriors in the Galaxy,　,0:08:54,＜レイザークレスト＞内の武器庫を発見するバーグ,・ディン・ジャリン,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,4,Let's Just Do It,　,0:10:47,ヘルメットを取るよう誂われるディン,　,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:12:09,チャイルドを抱くメイフェルド,・メイフェルドのチーム,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,5,Hyperspace,　,0:12:48,監獄船へ潜入するディンら,"・潜入作戦\n
+・メイフェルドのチーム",曲間無し(A)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,6,Little Mousey,　,0:15:31,セキュリティ・ドロイドと闘うディン,・裏切り,曲間無し(B)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,7,Tracking Beacon,　,0:18:23,ダヴィンを殺すシアン,・シアン,曲間無し(A)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:21:16,セキュリティ・ドロイドを破壊するバーグ,・潜入作戦,曲間無し(B)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,8,My Saviour,　,0:22:05,監房に閉じ込められるディン,・裏切り,曲間無し(C)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:23:01,監房内を彷徨くセキュリティ・ドロイド,　,曲間無し(D)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,9,Mando on the Move,　,0:23:17,監房から脱走するディン,・ディン・ジャリン,　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,10,Nice Family,　,0:24:24,分断されるメイフェルドら,・潜入作戦,曲間無し(A)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,11,Mando's Back,　,0:26:43,メイフェルドらを襲うディン,"・シアン\n
+・裏切り\n
+・ディン・ジャリン",曲間無し(B)
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:33:55,ステーションへ帰還するディン,"・ディン・ジャリン\n
+・裏切り",　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,　,　,　,0:37:41,"チャイルドにレバーの部品をあげるディン\n
+監房内のシアンら","・ディン・ジャリン\n
+・メイフェルドのチーム",　
+,Mando1,Season 1,6,Chapter 6: The Prisoner,6,9,The Mandalorian,0:46〜,0:38:30,エンド・クレジット,・ディン・ジャリン,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:00:00,あらすじ,・ディン・ジャリン,"以下に近い曲を含む\n
 2-3「Trashed Crest」(~0:24)\n
 1-8「The Asset」(1:21~)"
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:01:17,ロゴ,,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,1,Man of Honour,　,0:01:49,グリーフからの通信を見るディン,"チャイルド\n
-ディン･ジャリン",
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:05:30,ソウガンの寄合所で流れるBGM,,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:06:36,＜レイザークレスト＞内で会話するディンとキャラ,,"曲間無し(A)\n
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:01:17,ロゴ,　,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,1,Man of Honour,　,0:01:49,グリーフからの通信を見るディン,"・チャイルド\n
+・ディン・ジャリン",　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:05:30,ソウガンの寄合所で流れるBGM,　,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:06:36,＜レイザークレスト＞内で会話するディンとキャラ,　,"曲間無し(A)\n
 以下に近い曲を含む\n
 2-3「Trashed Crest」(0:20~0:33，1:24~)"
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:07:57,クイールと再会するディン,クイール,曲間無し(B)
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:09:23,飲み物を運んで来るIG-11,,曲間無し(A)
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,2,Reprogram,　,0:09:34,IG-11の再プログラミングについて語るクイール,IG-11,曲間無し(B)
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,3,Kuiil,　,0:12:22,クイールを説得するディン,ディン･ジャリン,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:13:59,キャラをフォースで絞めつける”チャイルド”,クライアント,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:16:17,ネヴァロへ降り立つ＜レイザークレスト＞,マンダロリアン,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,4,The Standoff,　,0:17:15,グリーフと再会するディン,クライアント,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,5,Black Skies,　,0:21:14,"飛行生物に襲われるディンら〜負傷したグリーフを救う”チャイルド”\n
-仲間の賞金稼ぎを殺すグリーフ","ディン･ジャリン\n
-チャイルド\n
-マンダロリアン",曲間無し(A)
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,6,This Is It,　,0:25:46,”クライアント”殺害作戦を開始するディンら,ディン･ジャリン,曲間無し(B)
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:28:16,"”クライアント”の元へ向かうディンら\n
-”チャイルド”を抱えて船へ戻るグリーフ",グリーフ,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:29:06,”クライアント”にディンと”チャイルド”を引き渡すグリーフ,クライアント,"以下に近い曲を含む\n
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:07:57,クイールと再会するディン,・クイール,曲間無し(B)
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:09:23,飲み物を運んで来るIG-11,　,曲間無し(A)
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,2,Reprogram,　,0:09:34,IG-11の再プログラミングについて語るクイール,・IG-11,曲間無し(B)
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,3,Kuiil,　,0:12:22,クイールを説得するディン,・ディン・ジャリン,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:13:59,キャラをフォースで絞めつけるチャイルド,・クライアント,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:16:17,ネヴァロへ降り立つ＜レイザークレスト＞,・マンダロリアン,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,4,The Standoff,　,0:17:15,グリーフと再会するディン,・クライアント,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,5,Black Skies,　,0:21:14,"飛行生物に襲われるディンら〜負傷したグリーフを救うチャイルド\n
+仲間の賞金稼ぎを殺すグリーフ","・ディン・ジャリン\n
+・チャイルド\n
+・マンダロリアン",曲間無し(A)
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,6,This Is It,　,0:25:46,クライアント殺害作戦を開始するディンら,・ディン・ジャリン,曲間無し(B)
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:28:16,"クライアントの元へ向かうディンら\n
+チャイルドを抱えて船へ戻るグリーフ",・グリーフ,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:29:06,クライアントにディンとチャイルドを引き渡すグリーフ,・クライアント,"以下に近い曲を含む\n
 1-2「Face to Face」(1:40~4:18)"
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,,　,　,0:31:12,ホログラム越しで会話する”クライアント”とギデオン,,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,7,The Arrival,　,0:32:10,ディンらの前に現れるギデオン,ギデオン,
-,Mando1,Season 1,7,Chapter 7: The Reckoning,7,8,The Mandalorian,　,0:35:50,エンド・クレジット,ディン･ジャリン,2:11付近のフレーズが本編では2回繰り返し
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:00:08,あらすじ,"ディン･ジャリン\n
-クライアント","以下に近い曲を含む\n
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,　,　,　,0:31:12,ホログラム越しで会話するクライアントとギデオン,　,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,7,The Arrival,　,0:32:10,ディンらの前に現れるギデオン,・ギデオン,　
+,Mando1,Season 1,7,Chapter 7: The Reckoning,7,8,The Mandalorian,　,0:35:50,エンド・クレジット,・ディン・ジャリン,2:11付近のフレーズが本編では2回繰り返し
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:00:08,あらすじ,"・ディン・ジャリン\n
+・クライアント","以下に近い曲を含む\n
 1-1「Hey Mando! 」(0:11~0:22)\n
 1-2「Face to Face」(1:26~1:35)\n
 1-1「Hey Mando! 」(1:00~1:09)\n
 3-1「A New Day」(0:54~1:06)\n
 3-6「Mando Rescue」(1:58~)"
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:01:37,ロゴ,,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,1,Check Point,~0:38,0:01:53,”チャイルド”を連れ去るスカウト・トルーパー,ギデオン,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,2,Nurse Droid,~0:26,0:05:04,スカウト・トルーパーの前に現れるIG-11,IG-11,曲間無し(A)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:05:32,スカウト・トルーパーを撃対するIG-11,,曲間無し(B)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,2,Nurse Droid,0:47~,0:05:52,”チャイルド”と共にスピーダーを走らせるIG-11,ディン･ジャリン,曲間無し(C)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:06:06,地下道からの脱出を提案するディン,,曲間無し(D)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,3,The Ewebb,　,0:06:39,降伏を勧めるギデオン,ギデオン,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,4,A Thousand Tears,　,0:10:23,ディン・ジャリンの回想,"マンダロアの教義\n
-ディン･ジャリン\n
-マンダロリアン",
-,Mando1,Season 1,8,Chapter 8: Redemption,8,5,Nurse and Protect,　,0:14:52,帝国レムナントと闘うディンら,"IG-11\n
-ディン･ジャリン\n
-ギデオン",曲間無し(A)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,6,A Warrior's Death,　,0:18:44,インシネレーター・トルーパーの攻撃を防ぐ”チャイルド”,"チャイルド\n
-マンダロリアン\n
-ギデオン\n
-マンドーとチャイルド",曲間無し(B)
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:22:32,"ディンにバクタスプレーを吹きかけるIG-11\n
-キャラらと地下道で合流するディンら",ディン･ジャリン,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,7,What Remains in the Tunnels,　,0:23:50,マンダロリアンの隠れ家へ向かうディンら,マンダロリアン,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,8,Clan of Two,　,0:27:09,ディンにクラン・オブ・ツーの印とジェットパックを授ける”アーマラー”,"マンダロリアン\n
-IG-11",
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:30:39,"”アーマラー”と別れるディンら\n
-ストームトルーパーを撃対する”アーマラー”",ディン･ジャリン,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,9,Sacrifice,　,0:33:56,自爆するIG-11,IG-11,
-,Mando1,Season 1,8,Chapter 8: Redemption,8,10,Mando Flies,　,0:37:27,TIEファイターでディンらを襲撃するギデオン,ギデオン,
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:01:37,ロゴ,　,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,1,Check Point,〜0:38,0:01:53,チャイルドを連れ去るスカウト・トルーパー,・ギデオン,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,2,Nurse Droid,〜0:26,0:05:04,スカウト・トルーパーの前に現れるIG-11,・IG-11,曲間無し(A)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:05:32,スカウト・トルーパーを撃対するIG-11,　,曲間無し(B)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,2,Nurse Droid,0:47〜,0:05:52,チャイルドと共にスピーダーを走らせるIG-11,・ディン・ジャリン,曲間無し(C)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:06:06,地下道からの脱出を提案するディン,　,曲間無し(D)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,3,The Ewebb,　,0:06:39,降伏を勧めるギデオン,・ギデオン,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,4,A Thousand Tears,　,0:10:23,ディン・ジャリンの回想,"・マンダロアの教義\n
+・ディン・ジャリン\n
+・マンダロリアン",　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,5,Nurse and Protect,　,0:14:52,帝国レムナントと闘うディンら,"・IG-11\n
+・ディン・ジャリン\n
+・ギデオン",曲間無し(A)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,6,A Warrior's Death,　,0:18:44,インシネレーター・トルーパーの攻撃を防ぐチャイルド,"・チャイルド\n
+・マンダロリアン\n
+・ギデオン\n
+・マンドーとチャイルド",曲間無し(B)
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:22:32,"ディンにバクタスプレーを吹きかけるIG-11\n
+キャラらと地下道で合流するディンら",・ディン・ジャリン,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,7,What Remains in the Tunnels,　,0:23:50,マンダロリアンの隠れ家へ向かうディンら,・マンダロリアン,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,8,Clan of Two,　,0:27:09,ディンにクラン・オブ・ツーの印とジェットパックを授けるアーマラー,"・マンダロリアン\n
+・IG-11",　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:30:39,"アーマラーと別れるディンら\n
+ストームトルーパーを撃対するアーマラー",・ディン・ジャリン,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,9,Sacrifice,　,0:33:56,自爆するIG-11,・IG-11,　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,10,Mando Flies,　,0:37:27,TIEファイターでディンらを襲撃するギデオン,・ギデオン,　
 ,Mando1,Season 1,8,Chapter 8: Redemption,8,11,The Baby,　,0:39:39,"グリーフとキャラと別れるディン・ジャリン\n
-ネヴァロを出発するディンら","ディン･ジャリン\n
-マンドーとチャイルド",
-,Mando1,Season 1,8,Chapter 8: Redemption,8,,　,　,0:43:10,ダークセーバーでTIEファイターから脱出するギデオン,ギデオン,
-,,,,,,,,,,,,
+ネヴァロを出発するディンら","・ディン・ジャリン\n
+・マンドーとチャイルド",　
+,Mando1,Season 1,8,Chapter 8: Redemption,8,　,　,　,0:43:10,ダークセーバーでTIEファイターから脱出するギデオン,・ギデオン,　
